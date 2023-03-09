@@ -52,4 +52,23 @@
 }
 /* @MEDIA */
 @media screen and (min-width: 414px) {
+  .block-6 {
+    padding: 64px 160px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .moonMan {
+    order: 1;
+  }
+  .contentBlock-6 {
+    align-items: flex-start;
+  }
+  .tittleBlock-6 {
+    font-size: 48px;
+  }
+  .btnReady {
+    padding: 20px 45px;
+  }
 }
