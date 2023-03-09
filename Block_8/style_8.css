@@ -5,6 +5,54 @@
   border: none;
   font-family: "Anek Latin", sans-serif;
 }
+.block_8 {
+  padding: 56px 16px;
+  background: #202020;
+}
+.threeImgMobile {
+  margin-bottom: 50px;
+}
+.firstBlock {
+  margin-bottom: 32px;
+}
+.firstBlock h1 {
+  margin-bottom: 16px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 120%;
+  color: #fbfaf6;
+}
+.firstBlock p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: #fbfaf6;
+}
+.secondBlock {
+  width: 345px;
+  margin-bottom: 40px;
+  color: #fbfaf6;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+}
+.secondBlock ul {
+  margin: 16px 0 16px 25px;
+}
+.btnInvestment {
+  padding: 20px 90px;
+  background: #fe6150;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  color: #fbfaf6;
+  cursor: pointer;
+}
+.btnInvestment img {
+  margin-left: 8px;
+}
 /* @MEDIA  */
 @media screen and (min-width: 414px) {
 }
