@@ -5,6 +5,42 @@
   border: none;
   font-family: "Anek Latin", sans-serif;
 }
+.footer {
+  padding: 64px 16px;
+  background: #202020;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footerLogoContact {
+  margin-bottom: 99px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footerLogoContact img {
+  margin-bottom: 30px;
+}
+.emailContact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fbfaf6;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+}
+.emailContact h6 {
+  margin-bottom: 16px;
+  opacity: 0.6;
+}
+.textFooter {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #fbfaf6;
+  opacity: 0.6;
+}
 /* @MEDIA  */
 @media screen and (min-width: 414px) {
 }
