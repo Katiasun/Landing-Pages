@@ -55,4 +55,27 @@
 }
 /* @MEDIA  */
 @media screen and (min-width: 414px) {
+  .block_8 {
+    padding: 64px 160px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .threeImgMobile {
+    order: 2;
+  }
+  .firstBlock h1 {
+    font-size: 48px;
+  }
+  .firstBlock p {
+    width: 565px;
+    font-size: 24px;
+  }
+  .secondBlock {
+    font-size: 18px;
+    width: 605px;
+  }
+  .btnInvestment {
+    padding: 20px 35px;
+  }
 }
