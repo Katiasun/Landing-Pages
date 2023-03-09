@@ -66,4 +66,23 @@
 
 /* @MEDIA */
 @media screen and (min-width: 414px) {
+  .block-5 {
+    padding: 64px 165px;
+  }
+  .content-tittle {
+    font-size: 48px;
+  }
+  .content-paragraph {
+    font-size: 18px;
+  }
+  .upperTriangle,
+  .lowerTriangle {
+    display: none;
+  }
+  .cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 24px;
+  }
 }
