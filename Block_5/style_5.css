@@ -6,8 +6,64 @@
   font-family: "Anek Latin", sans-serif;
 }
 .block-5 {
+  background: #9962f6;
   padding: 56px 16px;
+}
+.upperTriangle {
+  position: relative;
+  left: -13px;
+  top: -55px;
+  opacity: 0.1;
+}
+.lowerTriangle {
+  position: relative;
+  bottom: -56px;
+  left: -13px;
+  opacity: 0.1;
 }
 .content-text {
   margin-bottom: 40px;
+}
+.content-tittle {
+  margin-bottom: 16px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 120%;
+  text-align: center;
+  color: #fbfaf6;
+}
+.content-paragraph {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: #fbfaf6;
+}
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 24px;
+  background: #f7c744;
+  border: 2px solid #663dab;
+  box-shadow: -4px 5px 0px #663dab;
+  border-radius: 16px;
+  color: #202020;
+  line-height: 150%;
+}
+/* .item-card:not(:last-child) {
+  margin: 16px;
+} */
+.title-card {
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 22px;
+}
+.text-card {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+/* @MEDIA */
+@media screen and (min-width: 414px) {
 }
