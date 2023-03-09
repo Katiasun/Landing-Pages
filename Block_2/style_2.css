@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-family: "Anek Latin", sans-serif;
+}
+.block-2 {
+  background-color: rgba(80, 88, 246, 1);
+  padding: 56px 16px;
+  position: relative;
+}
+.block-telephons img {
+  margin-bottom: 24.35px;
+}
+.background-image {
+  opacity: 0.1;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+/* TEXTBLOCK - 2 */
+.textBlock-2 h2 {
+  margin-bottom: 32px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 120%;
+  color: #fbfaf6;
+}
+.textBlock-2 p {
+  font-size: 16px;
+  line-height: 150%;
+  color: #fbfaf6;
+}
+.whiteBlock-block2 {
+  padding: 24px;
+  margin-bottom: 40px;
+  background: #fbfaf6;
+  border: 2px solid #363dc4;
+  box-shadow: -4px 5px 0px #363dc4;
+  border-radius: 16px;
+}
+.whiteBlock-block2 p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #5058f6;
+}
+.paragrah2-textBlock-2 {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+.button-block2 {
+  padding: 20px 115px;
+  background: #f7c744;
+  border: 2px solid #363dc4;
+  box-shadow: -3px 3px 0px #363dc4;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: center;
+  color: #363dc4;
+  cursor: pointer;
+}
+.button-block2 img {
+  margin-left: 8.17px;
+}
+
+/* @MEDIA */
+@media screen and (min-width: 414px) {
+  .block-2 {
+    display: flex;
+    justify-content: space-around;
+  }
+  .block-telephons img {
+  }
+  .background-image {
+    height: 100%;
+  }
+  .textBlock-2 {
+    margin-left: 127.26px;
+    width: 545px;
+  }
+  .textBlock-2 h2 {
+    font-size: 36px;
+    width: 435px;
+  }
+  .textBlock-2 p {
+    font-size: 18px;
+  }
+  .button-block2 {
+    padding: 20px 36px;
+  }
+}
