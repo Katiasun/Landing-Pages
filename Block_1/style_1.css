@@ -26,14 +26,14 @@ body {
   font-size: 36px;
   line-height: 120%;
 }
-.subtittle1-block1 {
+.freeEducation {
   margin-bottom: 32px;
   font-weight: 500;
   font-size: 20px;
   line-height: 150%;
   color: #fbfaf6;
 }
-.subtittle2-block1 {
+.usefulness-100 {
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
@@ -41,8 +41,8 @@ body {
   margin-bottom: 40px;
 }
 .invest-10-steps-title span,
-.subtittle1-block1 span,
-.subtittle2-block1 span {
+.freeEducation span,
+.usefulness-100 span {
   color: #fe6150;
 }
 .button-sort {
@@ -94,10 +94,10 @@ body {
     width: 423px;
     font-size: 48px;
   }
-  .subtittle1-block1 {
+  .freeEducation {
     font-size: 24px;
   }
-  .subtittle2-block1 {
+  .usefulness-100 {
     font-size: 18px;
   }
   .button-sort {
