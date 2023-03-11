@@ -4,103 +4,27 @@
   padding: 0;
   margin: 0;
 }
-/* HEADER */
-.block_1 {
-  background: #202020;
-}
-.header {
-  padding: 40px 24px 13px;
-}
-.header-wrapper {
-  display: flex;
-  justify-content: space-between;
-}
-.list {
-  list-style: none;
-  display: none;
-}
-.item a {
-  text-decoration: none;
-  font-size: 16px;
-  line-height: 24px;
-  text-align: right;
-  color: #fbfaf6;
-}
-.frame-buttons {
-  display: flex;
-  justify-content: space-between;
-  /* padding: 0 50px; */
-}
-.frame-buttons img {
-  margin-right: 15px;
-  cursor: pointer;
-  width: 100%;
-}
-.language-switcher {
-  margin-right: 45px;
-  padding: 3px;
-  border: 1.5px solid #fbfaf6;
-  border-radius: 4px;
-  font-weight: 600;
-  font-size: 12px;
-  line-height: 13px;
-  text-align: center;
-  background: #202020;
-  cursor: pointer;
-  text-transform: uppercase;
-  color: #fbfaf6;
-}
-.investment-btn {
-  display: none;
-  padding: 14px 32px;
-  background: #fe6150;
-  border-radius: 10px;
-  font-size: 14px;
-  line-height: 24px;
-  color: #fbfaf6;
-}
-.burger-menu {
-  position: fixed;
-  top: 40px;
-  right: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 24px;
-  width: 30px;
-  cursor: pointer;
-  z-index: 9;
-}
-.burger-menu .line {
-  width: 100%;
-  height: 2px;
-  border: 2px solid #fbfaf6;
-  background-color: #fbfaf6;
-  transition: transform 0.3s ease-in-out;
-}
-.burger-menu.active .line:first-child {
-  transform: translateY(10px) rotate(45deg);
-}
-
-.burger-menu.active .line:last-child {
-  transform: translateY(-10px) rotate(-45deg);
-}
-
-.burger-menu.active .line:nth-child(2) {
-  opacity: 0;
+body {
+  overflow-x: hidden;
 }
 
 /* MAIN CONTENT */
-.main-content {
-  padding: 32px 16px 64px;
-  font-style: normal;
+.initial-block {
+  background: #202020;
+  padding: 0px 16px;
+  background-image: url("./bg_grid_mobile.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fbfaf6;
 }
-.tittle-1 {
+.invest-10-steps {
+  padding-top: 32px;
+}
+.invest-10-steps-title {
   margin-bottom: 16px;
   font-weight: 700;
   font-size: 36px;
   line-height: 120%;
-  color: #fbfaf6;
 }
 .subtittle1-block1 {
   margin-bottom: 32px;
@@ -116,7 +40,7 @@
   color: #fbfaf6;
   margin-bottom: 40px;
 }
-.tittle-1 span,
+.invest-10-steps-title span,
 .subtittle1-block1 span,
 .subtittle2-block1 span {
   color: #fe6150;
@@ -133,17 +57,19 @@
   font-weight: 600;
   font-size: 18px;
   line-height: 24px;
+  width: 100%;
 }
 .img-block {
   margin-top: 46.9px;
+  display: flex;
+  justify-content: center;
 }
 
 /* @MEDIA */
 @media screen and (min-width: 414px) {
-  .block_1 {
+  .initial-block {
     padding: 32px 34px;
   }
-
   .list {
     display: flex;
     justify-content: space-between;
@@ -158,7 +84,7 @@
     align-items: center;
     padding: 0px 126px 123.45px 126px;
   }
-  .text-block {
+  .invest-10-steps {
     width: 555px;
     display: flex;
     flex-direction: column;
