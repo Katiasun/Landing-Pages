@@ -11,11 +11,17 @@ body {
 /* MAIN CONTENT */
 .initial-block {
   background: #202020;
-  padding: 0px 16px;
-  background-image: url("./bg_grid_mobile.png");
+  background-image: url("./bg_grid.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: auto;
   color: #fbfaf6;
+}
+.initial-block-content-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 0 16px;
+  max-width: 530px;
 }
 .invest-10-steps {
   padding-top: 32px;
@@ -26,7 +32,7 @@ body {
   font-size: 36px;
   line-height: 120%;
 }
-.freeEducation {
+.free-education {
   margin-bottom: 32px;
   font-weight: 500;
   font-size: 20px;
@@ -41,11 +47,11 @@ body {
   margin-bottom: 40px;
 }
 .invest-10-steps-title span,
-.freeEducation span,
+.free-education span,
 .usefulness-100 span {
   color: #fe6150;
 }
-.button-sort {
+.button-sort-out {
   display: block;
   margin: auto;
   padding: 20px 94.5px;
@@ -59,49 +65,56 @@ body {
   line-height: 24px;
   width: 100%;
 }
-.img-block {
-  margin-top: 46.9px;
+.bukksy-coin-img-container {
+  margin-top: 46px;
+  padding-bottom: 86px;
   display: flex;
   justify-content: center;
 }
+.bukksy-coin-img {
+  width: 90%;
+  height: auto;
+  object-fit: contain;
+}
 
-/* @MEDIA */
-@media screen and (min-width: 414px) {
-  .initial-block {
-    padding: 32px 34px;
-  }
-  .list {
-    display: flex;
-    justify-content: space-between;
-  }
-  .burger-menu {
-    display: none;
-  }
-  .main-content {
-    display: flex;
-    justify-content: space-between;
+/* @MEDIA Desctop */
+@media screen and (min-width: 768px) {
+  .initial-block-content-wrapper {
     flex-direction: row;
+    max-width: 1120px;
+    justify-content: space-around;
     align-items: center;
-    padding: 0px 126px 123.45px 126px;
+    padding: 98px 32px 107px;
   }
   .invest-10-steps {
-    width: 555px;
+    width: 550px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    padding-top: 53px;
+    padding-bottom: 53px;
   }
-  .tittle-1 {
+  .invest-10-steps-title {
     width: 423px;
     font-size: 48px;
   }
-  .freeEducation {
+  .free-education {
     font-size: 24px;
   }
   .usefulness-100 {
     font-size: 18px;
   }
-  .button-sort {
+  .button-sort-out {
     margin: 0;
+    width: 200px;
     padding: 20px 30px;
+  }
+  .bukksy-coin-img-container {
+    margin-top: 0;
+    margin-left: 20px;
+    padding-bottom: 0;
+  }
+  .bukksy-coin-img {
+    width: 100%;
   }
 }
