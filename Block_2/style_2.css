@@ -20,19 +20,19 @@
   left: 0;
 }
 /* TEXTBLOCK - 2 */
-.textBlock-2 h2 {
+.block-bukksy-education h2 {
   margin-bottom: 32px;
   font-weight: 600;
   font-size: 24px;
   line-height: 120%;
   color: #fbfaf6;
 }
-.textBlock-2 p {
+.block-bukksy-education p {
   font-size: 16px;
   line-height: 150%;
   color: #fbfaf6;
 }
-.whiteBlock-block2 {
+.whiteBlock-content {
   padding: 24px;
   margin-bottom: 40px;
   background: #fbfaf6;
@@ -40,17 +40,17 @@
   box-shadow: -4px 5px 0px #363dc4;
   border-radius: 16px;
 }
-.whiteBlock-block2 p {
+.whiteBlock-content p {
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
   color: #5058f6;
 }
-.paragrah2-textBlock-2 {
+.learning-can-hard {
   margin-top: 24px;
   margin-bottom: 24px;
 }
-.button-block2 {
+.btn-open-bot {
   padding: 20px 115px;
   background: #f7c744;
   border: 2px solid #363dc4;
@@ -65,7 +65,7 @@
 }
 
 /* @MEDIA */
-@media screen and (min-width: 414px) {
+@media screen and (min-width: 768px) {
   .block-2 {
     display: flex;
     justify-content: space-around;
@@ -75,18 +75,18 @@
   .background-image {
     height: 100%;
   }
-  .textBlock-2 {
+  .block-bukksy-education {
     margin-left: 127.26px;
     width: 545px;
   }
-  .textBlock-2 h2 {
+  .block-bukksy-education h2 {
     font-size: 36px;
     width: 435px;
   }
-  .textBlock-2 p {
+  .block-bukksy-education p {
     font-size: 18px;
   }
-  .button-block2 {
+  .btn-open-bot {
     padding: 20px 36px;
   }
 }

@@ -5,7 +5,7 @@
   border: none;
   font-family: "Anek Latin", sans-serif;
 }
-.block-7 {
+.content-still-have-doubts {
   padding: 56px 16px;
   background: #5058f6;
 }
@@ -31,14 +31,14 @@
   font-size: 16px;
   line-height: 150%;
 }
-.mobileCard {
+.mobile-card {
   padding: 24px;
   background: #fbfaf6;
   border: 2px solid #363dc4;
   box-shadow: -4px 5px 0px #363dc4;
   border-radius: 16px;
 }
-.mobileTittle {
+.mobile-tittle {
   margin-bottom: 24px;
   font-weight: 500;
   font-size: 22px;
@@ -46,7 +46,7 @@
   text-align: center;
   color: #202020;
 }
-.cardInteractive {
+.card-interactive {
   z-index: 2;
   display: flex;
   flex-direction: column;
@@ -54,10 +54,7 @@
   padding: 0px;
   gap: 24px;
 }
-/* .answersMobile {
-  padding: 16px;
-} */
-.answerItem {
+.answer-item {
   padding: 16px;
   background: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.08);
@@ -67,21 +64,21 @@
   line-height: 150%;
   color: #202020;
 }
-.answerItem:not(:last-child) {
+.answer-item:not(:last-child) {
   margin-bottom: 4px;
 }
-.midleAnswer {
+.midle-answer {
   border: 1px solid rgba(0, 0, 0, 0.08);
   border-radius: 2px;
 }
-.answerItem span {
+.answer-item span {
   margin-right: 16px;
   font-weight: 700;
   font-size: 16px;
   line-height: 150%;
   color: #5058f6;
 }
-.BtnNext {
+.btn-next {
   padding: 12px 43px;
   background: #5058f6;
   border-radius: 10px;
@@ -93,8 +90,8 @@
   cursor: pointer;
 }
 /* @MEDIA */
-@media screen and (min-width: 414px) {
-  .block-7 {
+@media screen and (min-width: 768px) {
+  .content-still-have-doubts {
     padding: 64px 160px;
     display: flex;
     flex-direction: column;
@@ -109,7 +106,7 @@
   .contentBlock-7 p {
     font-size: 18px;
   }
-  .mobileCard {
+  .mobile-card {
     width: 500px;
     display: flex;
     flex-direction: column;

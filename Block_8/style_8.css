@@ -9,26 +9,26 @@
   padding: 56px 16px;
   background: #202020;
 }
-.threeImgMobile {
+.three-img-mobile {
   margin-bottom: 50px;
 }
-.firstBlock {
+.bakksy-investment-app {
   margin-bottom: 32px;
 }
-.firstBlock h1 {
+.bakksy-investment-app h1 {
   margin-bottom: 16px;
   font-weight: 700;
   font-size: 36px;
   line-height: 120%;
   color: #fbfaf6;
 }
-.firstBlock p {
+.bakksy-investment-app p {
   font-weight: 400;
   font-size: 20px;
   line-height: 150%;
   color: #fbfaf6;
 }
-.secondBlock {
+.two-paragraphs-of-bakksy {
   width: 345px;
   margin-bottom: 40px;
   color: #fbfaf6;
@@ -36,10 +36,10 @@
   font-size: 16px;
   line-height: 150%;
 }
-.secondBlock ul {
+.two-paragraphs-of-bakksy ul {
   margin: 16px 0 16px 25px;
 }
-.btnInvestment {
+.btn-investment {
   padding: 20px 90px;
   background: #fe6150;
   border-radius: 10px;
@@ -50,32 +50,32 @@
   color: #fbfaf6;
   cursor: pointer;
 }
-.btnInvestment img {
+.btn-investment img {
   margin-left: 8px;
 }
 /* @MEDIA  */
-@media screen and (min-width: 414px) {
+@media screen and (min-width: 768px) {
   .block_8 {
     padding: 64px 160px;
     display: flex;
     justify-content: space-around;
     align-items: center;
   }
-  .threeImgMobile {
+  .three-img-mobile {
     order: 2;
   }
-  .firstBlock h1 {
+  .bakksy-investment-app h1 {
     font-size: 48px;
   }
-  .firstBlock p {
+  .bakksy-investment-app p {
     width: 565px;
     font-size: 24px;
   }
-  .secondBlock {
+  .two-paragraphs-of-bakksy {
     font-size: 18px;
     width: 605px;
   }
-  .btnInvestment {
+  .btn-investment {
     padding: 20px 35px;
   }
 }

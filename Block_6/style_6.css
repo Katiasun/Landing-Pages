@@ -5,21 +5,21 @@
   border: none;
   font-family: "Anek Latin", sans-serif;
 }
-.block-6 {
+.moon-man-and-you-need {
   padding: 56px 16px;
   background: #202020;
 }
-.contentBlock-6 {
+.content-you-need {
   align-items: center;
 }
-.tittleBlock-6 {
+.tittle-you-need {
   margin-bottom: 40px;
   font-weight: 700;
   font-size: 36px;
   line-height: 120%;
   color: #fbfaf6;
 }
-.checkList {
+.check-list {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -30,17 +30,17 @@
   line-height: 150%;
   color: #fbfaf6;
 }
-.checkList p {
+.check-list p {
   margin: 0;
 }
-.checkList span {
+.check-list span {
   color: rgba(254, 97, 80, 1);
 }
-.checkArrow {
+.check-arrow {
   margin-right: 10px;
   max-width: 100px;
 }
-.btnReady {
+.btn-ready {
   padding: 20px 119px;
   background: #fe6150;
   border-radius: 10px;
@@ -51,24 +51,24 @@
   cursor: pointer;
 }
 /* @MEDIA */
-@media screen and (min-width: 414px) {
-  .block-6 {
+@media screen and (min-width: 768px) {
+  .moon-man-and-you-need {
     padding: 64px 160px;
     display: flex;
     justify-content: space-around;
     align-items: center;
   }
 
-  .moonMan {
+  .moo-man-img {
     order: 1;
   }
-  .contentBlock-6 {
+  .content-you-need {
     align-items: flex-start;
   }
-  .tittleBlock-6 {
+  .tittle-you-need {
     font-size: 48px;
   }
-  .btnReady {
+  .btn-ready {
     padding: 20px 45px;
   }
 }
