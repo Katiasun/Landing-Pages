@@ -12,16 +12,16 @@
   flex-direction: column;
   align-items: center;
 }
-.footerLogoContact {
+.footer-logo-contact {
   margin-bottom: 99px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.footerLogoContact img {
+.footer-logo-contact img {
   margin-bottom: 30px;
 }
-.emailContact {
+.email-contact {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -30,11 +30,11 @@
   font-size: 14px;
   line-height: 17px;
 }
-.emailContact h6 {
+.email-contact h6 {
   margin-bottom: 16px;
   opacity: 0.6;
 }
-.textFooter {
+.text-footer {
   font-weight: 400;
   font-size: 14px;
   line-height: 17px;
