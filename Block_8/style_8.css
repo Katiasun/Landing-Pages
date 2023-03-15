@@ -5,12 +5,29 @@
   border: none;
   font-family: "Anek Latin", sans-serif;
 }
-.block_8 {
-  padding: 56px 16px;
+.centered-flex-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   background: #202020;
 }
 .three-img-mobile {
-  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 81px 16px 50px;
+}
+.wrapper-what-bukksy {
+  margin: 0 16px 56px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.content-bakksy {
+  display: flex;
+  flex-direction: column;
 }
 .bakksy-investment-app {
   margin-bottom: 32px;
@@ -40,6 +57,8 @@
   margin: 16px 0 16px 25px;
 }
 .btn-investment {
+  display: flex;
+  align-items: center;
   padding: 20px 90px;
   background: #fe6150;
   border-radius: 10px;
@@ -55,14 +74,17 @@
 }
 /* @MEDIA  */
 @media screen and (min-width: 768px) {
-  .block_8 {
+  .centered-flex-box {
     padding: 64px 160px;
-    display: flex;
+    flex-direction: row;
     justify-content: space-around;
     align-items: center;
   }
   .three-img-mobile {
     order: 2;
+  }
+  .wrapper-what-bukksy {
+    align-items: flex-start;
   }
   .bakksy-investment-app h1 {
     font-size: 48px;

@@ -1,13 +1,16 @@
 * {
+  font-family: "Anek Latin", sans-serif;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   border: none;
-  font-family: "Anek Latin", sans-serif;
 }
-.block-2 {
+.educational-bot-wrapper {
   background-color: rgba(80, 88, 246, 1);
-  padding: 56px 16px;
+}
+.block-telephones {
+  margin: 0 auto;
+  padding: 0 16px;
 }
 .block-telephons img {
   margin-bottom: 24.35px;
@@ -19,7 +22,12 @@
   left: 0;
 }
 /* TEXTBLOCK - 2 */
+.block-bukksy-education {
+  margin: 0 auto;
+  padding: 0 16px 56px;
+}
 .block-bukksy-education h2 {
+  margin-top: 25px;
   margin-bottom: 32px;
   font-weight: 600;
   font-size: 24px;
@@ -31,7 +39,7 @@
   line-height: 150%;
   color: #fbfaf6;
 }
-.whiteBlock-content {
+.simple-investment-helper {
   padding: 24px;
   margin-bottom: 40px;
   background: #fbfaf6;
@@ -39,7 +47,7 @@
   box-shadow: -4px 5px 0px #363dc4;
   border-radius: 16px;
 }
-.whiteBlock-content p {
+.simple-investment-helper p {
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
@@ -63,12 +71,15 @@
   text-decoration: none;
   cursor: pointer;
 }
-
+.btn-open-bot img {
+  margin-left: 8px;
+}
 /* @MEDIA */
 @media screen and (min-width: 768px) {
-  .block-2 {
+  .educational-bot-wrapper {
+    padding: 80px 160px;
     display: flex;
-    justify-content: center;
+    align-items: center;
   }
   .block-telephons img {
     width: 100%;
@@ -88,6 +99,9 @@
     font-size: 18px;
   }
   .btn-open-bot {
+    width: 200px;
     padding: 20px 36px;
+    display: flex;
+    align-items: center;
   }
 }

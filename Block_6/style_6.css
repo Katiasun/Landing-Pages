@@ -6,10 +6,20 @@
   font-family: "Anek Latin", sans-serif;
 }
 .moon-man-and-you-need {
-  padding: 56px 16px;
   background: #202020;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.moon-man-img {
+  display: flex;
+  align-items: center;
+  margin: 0 16px;
 }
 .content-you-need {
+  margin: 0 16px 56px;
+  display: flex;
+  flex-direction: column;
   align-items: center;
 }
 .tittle-you-need {
@@ -22,7 +32,8 @@
 .check-list {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
+  justify-content: center;
   gap: 24px;
   margin-bottom: 40px;
   font-weight: 600;
@@ -37,10 +48,13 @@
   color: rgba(254, 97, 80, 1);
 }
 .check-arrow {
-  margin-right: 10px;
+  display: block;
+  margin-right: 16px;
   max-width: 100px;
 }
 .btn-ready {
+  display: flex;
+  align-items: center;
   padding: 20px 119px;
   background: #fe6150;
   border-radius: 10px;
@@ -50,16 +64,19 @@
   color: #fbfaf6;
   cursor: pointer;
 }
+.btn-ready img {
+  margin-left: 8px;
+}
 /* @MEDIA */
 @media screen and (min-width: 768px) {
   .moon-man-and-you-need {
     padding: 64px 160px;
-    display: flex;
+    flex-direction: row;
     justify-content: space-around;
     align-items: center;
   }
 
-  .moo-man-img {
+  .moon-man-img {
     order: 1;
   }
   .content-you-need {
@@ -70,5 +87,6 @@
   }
   .btn-ready {
     padding: 20px 45px;
+    width: 200px;
   }
 }

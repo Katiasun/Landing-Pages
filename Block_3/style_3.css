@@ -9,6 +9,11 @@
   padding: 56px 16px;
   background: #202020;
 }
+.items-learn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .tittle-learn {
   margin-bottom: 32px;
   font-weight: 700;
@@ -16,7 +21,11 @@
   line-height: 120%;
   color: #fbfaf6;
 }
-.content-what-will-you p {
+.investment-advice-block {
+  display: flex;
+  flex-direction: column;
+}
+.investment-advice-block p {
   margin-bottom: 16px;
   font-weight: 600;
   font-size: 16px;
@@ -26,8 +35,10 @@
 .content-what-will-you p span {
   color: #f7c744;
 }
-.yellow-block {
+.long-term-investment-guide {
   margin-top: 16px;
+  margin-bottom: 40px;
+  width: 343px;
   padding: 24px;
   background: #f7c744;
   border: 2px solid #000000;
@@ -44,12 +55,18 @@
     display: flex;
     justify-content: center;
   }
-
-  .yellow-block {
+  .items-learn {
+    align-items: flex-start;
+  }
+  .investment-advice-block {
+    width: 544px;
+  }
+  .long-term-investment-guide {
     width: 545px;
   }
   .run-man {
     display: flex;
+    justify-content: center;
     align-items: center;
   }
 }

@@ -7,11 +7,13 @@
 }
 .wrapper-get-ready {
   background: #9962f6;
-  padding: 56px 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .upper-triangle {
   position: relative;
-  left: -13px;
+  left: -42px;
   top: -55px;
   opacity: 0.1;
 }
@@ -22,7 +24,10 @@
   opacity: 0.1;
 }
 .content-tittle-and-paragraph {
-  margin-bottom: 40px;
+  margin-bottom: 0 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .tittle-ready-for {
   margin-bottom: 16px;
@@ -40,8 +45,10 @@
   color: #fbfaf6;
 }
 .four-cards {
+  margin: 40px 16px 56px;
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 16px;
   padding: 24px;
   background: #f7c744;
@@ -74,6 +81,7 @@
   }
   .paragraph-with-our {
     font-size: 18px;
+    width: 572px;
   }
   .upper-triangle,
   .lower-triangle {

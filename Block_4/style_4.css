@@ -6,17 +6,19 @@
   font-family: "Anek Latin", sans-serif;
 }
 .stars-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background: #1a1a1a;
-  position: relative;
 }
 .upper-starts,
 .lower-starts {
   max-width: 100%;
 }
-.upperStartsDesktop,
-.lowerStarsDesktop,
-.leftStarsDesktop,
-.rightStarsDesktop {
+.upper-starts-desktop,
+.lower-stars-desktop,
+.left-stars-desktop,
+.right-stars-desktop {
   display: none;
 }
 .content-you-get {
@@ -61,6 +63,7 @@
   .stars-block {
     padding: 97.5px 98px;
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
     align-items: center;
     position: relative;
@@ -69,31 +72,35 @@
   .lower-starts {
     display: none;
   }
-  .upperStartsDesktop,
-  .lowerStarsDesktop,
-  .leftStarsDesktop,
-  .rightStarsDesktop {
+  .upper-starts-desktop,
+  .lower-stars-desktop,
+  .left-stars-desktop,
+  .right-stars-desktop {
     display: inline-block;
     position: absolute;
   }
-  .upperStartsDesktop {
+  .upper-starts-desktop {
     top: 0;
     left: 0;
+    width: 100%;
   }
-  .lowerStarsDesktop {
+  .lower-stars-desktop {
     bottom: 0;
     left: 0;
+    width: 100%;
   }
-  .leftStarsDesktop {
+  .left-stars-desktop {
     left: 0;
     top: 0;
+    height: 100%;
   }
-  .rightStarsDesktop {
+  .right-stars-desktop {
     right: 0;
     top: 0;
+    height: 100%;
   }
   .secret-free {
-    width: 364px;
+    width: 401px;
     padding: 8px 16px;
     font-size: 18px;
   }
@@ -103,5 +110,6 @@
   }
   .certificate {
     order: 1;
+    transform: rotate(-4.03deg);
   }
 }

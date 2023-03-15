@@ -6,38 +6,92 @@
   font-family: "Anek Latin", sans-serif;
 }
 .footer {
-  padding: 64px 16px;
   background: #202020;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
 }
-.footer-logo-contact {
-  margin-bottom: 99px;
+.bakksy-info {
+  margin: 10px 16px 96px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
+  justify-content: center;
 }
-.footer-logo-contact img {
-  margin-bottom: 30px;
-}
-.email-contact {
+.path-finder {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
+  justify-content: center;
+  margin-top: 32px;
+  margin-bottom: 40px;
+}
+.path-finder a {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
   color: #fbfaf6;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 17px;
+  text-decoration: none;
 }
-.email-contact h6 {
+.path-finder a:not(:last-child) {
+  margin-right: 32px;
+}
+.socials {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.socials p {
   margin-bottom: 16px;
-  opacity: 0.6;
-}
-.text-footer {
-  font-weight: 400;
+  font-weight: 600;
   font-size: 14px;
-  line-height: 17px;
-  color: #fbfaf6;
-  opacity: 0.6;
+  line-height: 20px;
+  color: rgba(251, 250, 246, 0.6);
+}
+.media-links {
+  display: flex;
+  flex-direction: row;
+}
+.media-links a:not(:last-child) {
+  margin-right: 21px;
+}
+.bakksy-copyright {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0 16px 48px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(251, 250, 246, 0.6);
+}
+.clear-connect {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+.clear-connect a {
+  margin-top: 32px;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(251, 250, 246, 0.6);
+}
+.clear-connect a:not(:last-child) {
+  margin-right: 16px;
+}
+/* @MEDIA  */
+@media screen and (min-width: 768px) {
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    padding: 0 165px 48px;
+  }
+  .bakksy-info {
+  }
+  .bakksy-copyright p {
+    width: 525px;
+  }
 }
