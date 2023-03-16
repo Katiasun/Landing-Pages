@@ -10,6 +10,11 @@
   flex-direction: column;
   align-items: center;
   background: #1a1a1a;
+  background-image: url("./upper-starts.png"), url("./lower-starts.png");
+  background-repeat: repeat-x, repeat-x;
+  background-position: top, bottom;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 .upper-starts,
 .lower-starts {
@@ -67,6 +72,12 @@
     justify-content: space-around;
     align-items: center;
     position: relative;
+
+    background-image: url("./upperStartsDekstop.png"), url("./lowerStartsDekstop.png"), url("./leftStartsDekstop.png"), url("./rightStartsDekstop.png");
+    background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
+    background-position: top, bottom, left, right;
+    padding-top: 80px;
+    padding-bottom: 80px;
   }
   .upper-starts,
   .lower-starts {
