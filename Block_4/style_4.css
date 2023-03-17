@@ -7,7 +7,6 @@
 }
 .stars-block {
   display: flex;
-  flex-direction: column;
   align-items: center;
   background: #1a1a1a;
   background-image: url("./upper-starts.png"), url("./lower-starts.png");
@@ -16,18 +15,12 @@
   padding-top: 80px;
   padding-bottom: 80px;
 }
-.upper-starts,
-.lower-starts {
-  max-width: 100%;
-}
-.upper-starts-desktop,
-.lower-stars-desktop,
-.left-stars-desktop,
-.right-stars-desktop {
-  display: none;
-}
-.content-you-get {
+.block-16px {
+  margin: 0 auto;
   padding: 0 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .content-you-get h1 {
   margin-bottom: 16px;
@@ -51,6 +44,7 @@
   font-weight: 600;
   font-size: 16px;
   line-height: 150%;
+  text-align: center;
   color: #fbfaf6;
 }
 .content-you-get p {
@@ -60,55 +54,27 @@
   color: #fbfaf6;
 }
 .certificate {
-  padding: 28px 61.25px;
+  margin-top: 28px;
 }
-
+.certificate img {
+  width: 100%;
+}
 /* @MEDIA */
 @media only screen and (min-width: 768px) {
   .stars-block {
     padding: 97.5px 98px;
-    display: flex;
-    flex-direction: row;
     justify-content: space-around;
-    align-items: center;
-    position: relative;
-
-    background-image: url("./upperStartsDekstop.png"), url("./lowerStartsDekstop.png"), url("./leftStartsDekstop.png"), url("./rightStartsDekstop.png");
+    background-image: url("./upperStartsDekstop.png"),
+      url("./lowerStartsDekstop.png"), url("./leftStartsDekstop.png"),
+      url("./rightStartsDekstop.png");
     background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
     background-position: top, bottom, left, right;
     padding-top: 80px;
     padding-bottom: 80px;
   }
-  .upper-starts,
-  .lower-starts {
-    display: none;
-  }
-  .upper-starts-desktop,
-  .lower-stars-desktop,
-  .left-stars-desktop,
-  .right-stars-desktop {
-    display: inline-block;
-    position: absolute;
-  }
-  .upper-starts-desktop {
-    top: 0;
-    left: 0;
-    width: 100%;
-  }
-  .lower-stars-desktop {
-    bottom: 0;
-    left: 0;
-    width: 100%;
-  }
-  .left-stars-desktop {
-    left: 0;
-    top: 0;
-    height: 100%;
-  }
-  .right-stars-desktop {
-    right: 0;
-    top: 0;
-    height: 100%;
+  .block-16px {
+    flex-direction: row;
+    justify-content: space-around;
   }
   .secret-free {
     width: 401px;
