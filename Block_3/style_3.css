@@ -6,13 +6,18 @@
   font-family: "Anek Latin", sans-serif;
 }
 .content-what-will-you {
-  padding: 56px 16px;
   background: #202020;
+}
+.block-16px {
+  padding: 56px 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .items-learn {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
 }
 .tittle-learn {
   margin-bottom: 32px;
@@ -38,7 +43,6 @@
 .long-term-investment-guide {
   margin-top: 16px;
   margin-bottom: 40px;
-  width: 343px;
   padding: 24px;
   background: #f7c744;
   border: 2px solid #000000;
@@ -49,11 +53,16 @@
   line-height: 150%;
   color: #202020;
 }
+.run-man img {
+  width: 100%;
+}
 /* @MEDIA */
 @media only screen and (min-width: 768px) {
-  .content-what-will-you {
+  .block-16px {
+    padding: 80px 160px;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    flex-direction: row;
   }
   .items-learn {
     align-items: flex-start;
