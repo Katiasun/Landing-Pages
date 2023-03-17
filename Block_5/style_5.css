@@ -6,17 +6,24 @@
   font-family: "Anek Latin", sans-serif;
 }
 .wrapper-get-ready {
-  background: #9962f6;
+  background-color: rgba(153, 98, 246, 1);
+  background-image: url("./tringles.png");
+  background-position: left;
+  background-repeat: no-repeat;
+}
+.block-16px {
+  padding: 56px 16px;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.upper-triangle {
+/* .upper-triangle {
   position: relative;
   left: -42px;
   top: -55px;
   opacity: 0.1;
-}
+} */
 .lower-triangle {
   position: relative;
   bottom: -56px;
@@ -45,11 +52,13 @@
   color: #fbfaf6;
 }
 .four-cards {
-  margin: 40px 16px 56px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 40px;
   gap: 16px;
+}
+.item-card {
   padding: 24px;
   background: #f7c744;
   border: 2px solid #663dab;
@@ -73,7 +82,7 @@
 
 /* @MEDIA */
 @media screen and (min-width: 768px) {
-  .wrapper-get-ready {
+  .block-16px {
     padding: 64px 165px;
   }
   .tittle-ready-for {
@@ -91,6 +100,9 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    gap: 24px;
+    gap: 16px;
+  }
+  .item-card {
+    width: 370px;
   }
 }
