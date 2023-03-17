@@ -18,12 +18,6 @@
   flex-direction: column;
   align-items: center;
 }
-/* .upper-triangle {
-  position: relative;
-  left: -42px;
-  top: -55px;
-  opacity: 0.1;
-} */
 .lower-triangle {
   position: relative;
   bottom: -56px;
