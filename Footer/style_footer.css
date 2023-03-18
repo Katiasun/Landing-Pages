@@ -5,12 +5,22 @@
   border: none;
   font-family: "Anek Latin", sans-serif;
 }
-.footer {
+body {
+  overflow-x: hidden;
+}
+footer {
   background: #202020;
+  background-image: url("./bg_grid.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+.block-16px {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   padding: 56px 16px 48px;
+  margin: 0 auto;
+  max-width: 530px;
 }
 .bakksy-info {
   display: flex;
@@ -18,6 +28,7 @@
   align-items: flex-start;
   justify-content: center;
   margin-bottom: 100px;
+  width: 100%;
 }
 .path-finder {
   display: flex;
@@ -71,7 +82,7 @@
   align-items: flex-start;
 }
 .clear-connect a {
-  margin-top: 32px;
+  padding-top: 32px;
   text-decoration: none;
   font-weight: 400;
   font-size: 16px;
@@ -83,12 +94,18 @@
 }
 /* @MEDIA  */
 @media screen and (min-width: 768px) {
-  .footer {
+  .block-16px {
     flex-direction: column;
     align-items: center;
     padding: 0 165px 48px;
+    max-width: 1120px;
   }
   .bakksy-info {
+    justify-content: space-between;
+  }
+  .bakksy-copyright {
+    width: 100%;
+    flex-direction: row;
   }
   .bakksy-copyright p {
     width: 525px;
