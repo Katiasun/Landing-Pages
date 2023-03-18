@@ -5,6 +5,9 @@
   border: none;
   font-family: "Anek Latin", sans-serif;
 }
+body {
+  overflow-x: hidden;
+}
 .wrapper-get-ready {
   background-color: rgba(153, 98, 246, 1);
   background-image: url("./left-traingle.png"), url("./right-traingle.png");

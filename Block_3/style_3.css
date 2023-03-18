@@ -5,6 +5,9 @@
   border: none;
   font-family: "Anek Latin", sans-serif;
 }
+body {
+  overflow-x: hidden;
+}
 .content-what-will-you {
   background: #202020;
   background-image: url("./bg_grid.png");

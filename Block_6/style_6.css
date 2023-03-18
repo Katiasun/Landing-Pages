@@ -5,6 +5,9 @@
   border: none;
   font-family: "Anek Latin", sans-serif;
 }
+body {
+  overflow-x: hidden;
+}
 .moon-man-and-you-need {
   background: #202020;
 }

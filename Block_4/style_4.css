@@ -5,6 +5,9 @@
   border: none;
   font-family: "Anek Latin", sans-serif;
 }
+body {
+  overflow-x: hidden;
+}
 .stars-block {
   display: flex;
   align-items: center;
