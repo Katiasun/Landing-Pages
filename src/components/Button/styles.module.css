@@ -1,0 +1,36 @@
+.primary {
+  display: block;
+  padding: 20px 20px;
+  background: #fe6150;
+  border-radius: 10px;
+  border: none;
+  text-align: center;
+  color: #fbfaf6;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.primary:hover {
+  background: #1f938a;
+}
+
+.secondary {
+  display: block;
+  padding: 20px 20px;
+  background: #f7c744;
+  border: 2px solid #363dc4;
+  box-shadow: -3px 3px 0px #363dc4;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: center;
+  color: #363dc4;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.secondary:hover {
+  box-shadow: none;
+}

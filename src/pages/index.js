@@ -1,21 +1,24 @@
 import * as React from "react"
-import { injectIntl } from "gatsby-plugin-react-intl"
-import BlockLayout from "../components/BlockLayout"
-import MainWrapper from "../components/MainWrapper"
+import InitialBlock from "../components/InitialBlock"
 
-const IndexPage = ({ intl }) => {
+const IndexPage = () => {
   return (
     <main>
-      <MainWrapper>
-        <BlockLayout>
-          <h1>{intl.formatMessage({ id: "test" })}</h1>
-        </BlockLayout>
-      </MainWrapper>
+      {/* <Header /> */}
+      <InitialBlock />
+      {/* <EducationDivisionBlock /> */}
+      {/* <LearnPlanBlock /> */}
+      {/* <CertificateBlock /> */}
+      {/* <InvestmentJourneyBlock /> */}
+      {/* <AboutBotBlock /> */}
+      {/* <QuizBlock /> */}
+      {/* <AboutBakksyBlock /> */}
+      {/* <Footer /> */}
     </main>
   )
 }
 
-export default injectIntl(IndexPage)
+export default IndexPage
 
 export const Head = ({ pageContext }) => <>
   <html lang={pageContext.language} />

@@ -1,5 +1,20 @@
 {
   "pageTitle": "Bakksy Education",
   "pageDescription": "Bakksy Education",
-  "test": "text(en)"
+
+  "initialBlock": {
+    "becomeInvestorTitle": "Become An Investor In",
+    "becomeInvestorTitleSteps": "10 Steps",
+    "becomeInvestorSubtitle": "Free educational bot for novices in investing.",
+    "youFind": "Here you'll find",
+    "usefulness100": "100% usefulness and 0% boredom!",
+    "youGet": "After going through all chapters on investment basics, you'll get the",
+    "freeStock": "free stock",
+    "startYourPortfolio": "to start your portfolio after the Bakksy launch!",
+    "sortOutInvesting": "Sort out investing",
+    "imageAltYellowMan": "Yellow Men Illustration"
+  },
+  "EducationDivisionBlock": {
+
+  }
 }
