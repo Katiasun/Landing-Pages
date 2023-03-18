@@ -1,3 +1,4 @@
+require("dotenv").config();
 /**
  * @type {import('gatsby').GatsbyConfig}
  */
@@ -32,6 +33,35 @@ module.exports = {
         redirect: true,
         redirectDefaultLanguageToRoot: true,
         fallbackLanguage: `en`,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-facebook-pixel`,
+      options: {
+        pixelId: process.env.PIXEL_ID,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-amplitude-analytics`,
+      options: {
+        apiKey: process.env.AMPLITUDE_ANALYTICS_API_KEY,
+        eventTypes: {
+          outboundLinkClick: 'OUTBOUND_LINK_CLICK',
+          pageView: 'PAGE_VIEW',
+        },
+        amplitudeConfig: {
+          saveEvents: true,
+          includeUtm: true,
+          includeReferrer: true
+        },
+      },
+    },
+    {
+      resolve: `gatsby-plugin-google-gtag`,
+      options: {
+        trackingIds: [
+          process.env.GA_TRACKING_ID,
+        ],
       },
     },
   ]
