@@ -1,12 +1,13 @@
 import * as React from "react"
-import InitialBlock from "../components/InitialBlock"
+import InitialBlock from "../components/InitialBlock";
+import EducationDivisionBlock from "../components/EducationDivisionBlock";
 
 const IndexPage = () => {
   return (
     <main>
       {/* <Header /> */}
       <InitialBlock />
-      {/* <EducationDivisionBlock /> */}
+      <EducationDivisionBlock />
       {/* <LearnPlanBlock /> */}
       {/* <CertificateBlock /> */}
       {/* <InvestmentJourneyBlock /> */}

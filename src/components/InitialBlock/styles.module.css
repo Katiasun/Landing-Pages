@@ -1,3 +1,10 @@
+.wrapper {
+  background: #202020;
+  background-image: url("../../images/bg_grid.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+  color: #fbfaf6;
+}
 .invest-10-steps {
   padding-top: 32px;
 }

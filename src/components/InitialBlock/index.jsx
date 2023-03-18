@@ -9,7 +9,7 @@ const InitialBlock = () => {
   const intl = useIntl();
 
   return (
-    <BlockLayout>
+    <BlockLayout className={styles.wrapper}>
       <div className={styles.invest10Steps}>
         <h2 className={styles.invest10StepsTitle}>
           {intl.formatMessage({ id: 'initialBlock.becomeInvestorTitle' })} <span>{intl.formatMessage({ id: 'initialBlock.becomeInvestorTitleSteps' })}</span>

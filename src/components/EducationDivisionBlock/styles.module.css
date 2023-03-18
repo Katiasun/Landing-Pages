@@ -1,0 +1,7 @@
+.wrapper {
+  background-color: rgba(80, 88, 246, 1);
+  background-image: url("../../images/traingles.png"), url("../../images/traingles-lower.png");
+  background-position: top left, right bottom;
+  background-repeat: no-repeat, no-repeat;
+  background-size: contain, contain;
+}
