@@ -16,7 +16,7 @@ body {
   background-size: auto;
   color: #fbfaf6;
 }
-.initial-block-content-wrapper {
+.block-16px {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
@@ -79,7 +79,7 @@ body {
 
 /* @MEDIA Desctop */
 @media screen and (min-width: 768px) {
-  .initial-block-content-wrapper {
+  .block-16px {
     flex-direction: row;
     max-width: 1120px;
     justify-content: space-around;
