@@ -10,6 +10,9 @@ body {
 }
 .moon-man-and-you-need {
   background: #202020;
+  background-image: url("./bg_grid.png");
+  background-repeat: no-repeat;
+  background-size: auto;
 }
 .block-16px {
   display: flex;
@@ -17,6 +20,7 @@ body {
   align-items: center;
   margin: 0 auto;
   padding: 56px 16px;
+  max-width: 530px;
 }
 .moon-man-img {
   display: flex;
@@ -80,10 +84,13 @@ body {
 /* @MEDIA */
 @media screen and (min-width: 768px) {
   .block-16px {
-    padding: 64px 160px;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    max-width: 1120px;
+  }
+  .moon-man-img img {
+    max-width: 475px;
   }
   .content-you-need {
     align-items: flex-start;
