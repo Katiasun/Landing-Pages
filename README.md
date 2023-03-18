@@ -1,5 +1,4 @@
-<!-- short description how to run gatsby project -->
-# Gatsby Project
+# Bakksy Education
 
 ## Install
 
