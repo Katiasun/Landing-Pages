@@ -5,11 +5,15 @@
   border: none;
   font-family: "Anek Latin", sans-serif;
 }
+body {
+  overflow-x: hidden;
+}
 .content-still-have-doubts {
   background: #5058f6;
-  background-image: url("./left-big-traingle.png");
-  background-position: left;
-  background-repeat: no-repeat;
+  background-image: url("./traingles.png"), url("./traingle-lower.png");
+  background-position: top left, right bottom;
+  background-repeat: no-repeat, no-repeat;
+  background-size: inherit, inherit;
 }
 .block-16px {
   margin: 0 auto;
@@ -17,6 +21,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  max-width: 530px;
 }
 .informative-block {
   color: #fbfaf6;
@@ -98,11 +103,19 @@
 
 /* @MEDIA */
 @media screen and (min-width: 768px) {
+  .content-still-have-doubts {
+    background: #5058f6;
+    background-image: url("./traingles.png"), url("./traingle-lower.png");
+    background-position: top left, right bottom;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 25%, 30%;
+  }
   .block-16px {
     padding: 64px 160px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    max-width: 1120px;
   }
 
   .informative-block {
