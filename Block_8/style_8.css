@@ -5,8 +5,14 @@
   border: none;
   font-family: "Anek Latin", sans-serif;
 }
+body {
+  overflow-x: hidden;
+}
 .centered-flex-box {
   background: #202020;
+  background-image: url("./bg_grid.png");
+  background-repeat: no-repeat;
+  background-size: auto;
 }
 .block-16px {
   display: flex;
@@ -15,6 +21,7 @@
   justify-content: center;
   padding: 56px 16px;
   margin: 0 auto;
+  max-width: 530px;
 }
 .three-img-mobile {
   display: flex;
@@ -22,7 +29,9 @@
   justify-content: center;
 }
 .three-img-mobile img {
-  width: 100%;
+  width: 90%;
+  height: auto;
+  object-fit: contain;
 }
 .wrapper-what-bukksy {
   display: flex;
@@ -51,7 +60,6 @@
   color: #fbfaf6;
 }
 .two-paragraphs-of-bakksy {
-  width: 345px;
   margin-bottom: 40px;
   color: #fbfaf6;
   font-weight: 400;
@@ -84,10 +92,14 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    max-width: 1120px;
   }
 
   .three-img-mobile {
     order: 2;
+  }
+  .three-img-mobile img {
+    width: 100%;
   }
   .wrapper-what-bukksy {
     align-items: flex-start;
