@@ -7,16 +7,18 @@
 }
 .wrapper-get-ready {
   background-color: rgba(153, 98, 246, 1);
-  background-image: url("./tringles.png");
-  background-position: left;
-  background-repeat: no-repeat;
+  background-image: url("./left-traingle.png"), url("./right-traingle.png");
+  background-position: top left, right bottom;
+  background-repeat: no-repeat, no-repeat;
+  background-size: inherit, inherit;
 }
 .block-16px {
-  padding: 56px 16px;
-  margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 56px 16px;
+  margin: 0 auto;
+  max-width: 530px;
 }
 .lower-triangle {
   position: relative;
@@ -78,6 +80,7 @@
 @media screen and (min-width: 768px) {
   .block-16px {
     padding: 64px 165px;
+    max-width: 1120px;
   }
   .tittle-ready-for {
     font-size: 48px;
