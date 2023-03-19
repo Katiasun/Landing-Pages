@@ -15,6 +15,12 @@
     "imageAltYellowMan": "Yellow Men Illustration"
   },
   "EducationDivisionBlock": {
-
+    "phones": "Phones",
+    "bukksyEducationDevision": "Hey, it's the Bakksy Education Division here!",
+    "takledWithNovice": "We've talked with novice investors, addressed their issues, and understood that this educational bot is a burning necessity.",
+    "learnCanHard": "Learning can be hard, we know. Especially when it comes to learning about investment.",
+    "createdBotForYou": "That's why we've created this bot for you to sort out the investment in the most simple and easy-to-grasp format - an educational bot in Telegram or Facebook messenger!",
+    "openTheBot": "Open the Bot",
+    "arrowImg": "Arrow"
   }
 }
