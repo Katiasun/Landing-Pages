@@ -12,7 +12,7 @@ const LearnPlanBlock = () => {
     <BlockLayout className={styles.wrapper}>
       <div className={styles.itemsLearn}>
         <h1 className={styles.tittleLearn}>
-          {intl.formatMessage({ id: "LearnPlanBlock.whatWiilYou" })} 🎓
+          {intl.formatMessage({ id: "LearnPlanBlock.whatWillYou" })} 🎓
         </h1>
         <div className={styles.investmentAdviceBlock}>
           <p>
