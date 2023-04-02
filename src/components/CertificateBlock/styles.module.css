@@ -1,0 +1,11 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  background: #1a1a1a;
+  background-image: url("../../images/upperStarts.png"),
+    url("../../images/lowerStarts.png");
+  background-repeat: repeat-x, repeat-x;
+  background-position: top, bottom;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}

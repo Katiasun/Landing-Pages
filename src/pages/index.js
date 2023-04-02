@@ -2,6 +2,8 @@ import * as React from "react";
 import InitialBlock from "../components/InitialBlock";
 import EducationDivisionBlock from "../components/EducationDivisionBlock";
 import LearnPlanBlock from "../components/LearnPlanBlock";
+import CertificateBlock from "../components/CertificateBlock";
+
 const IndexPage = () => {
   return (
     <main>
@@ -9,7 +11,7 @@ const IndexPage = () => {
       <InitialBlock />
       <EducationDivisionBlock />
       <LearnPlanBlock />
-      {/* <CertificateBlock /> */}
+      <CertificateBlock />
       {/* <InvestmentJourneyBlock /> */}
       {/* <AboutBotBlock /> */}
       {/* <QuizBlock /> */}
