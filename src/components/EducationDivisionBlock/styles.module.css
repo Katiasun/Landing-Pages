@@ -80,12 +80,15 @@
   .blockBukksyEducation {
     width: 50%;
   }
+
   .blockBukksyEducation h2 {
     font-size: 36px;
   }
+
   .blockBukksyEducation p {
     font-size: 18px;
   }
+
   .btnOpenBot {
     width: 212px;
     padding: 20px 36px;

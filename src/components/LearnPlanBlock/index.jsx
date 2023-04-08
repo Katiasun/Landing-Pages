@@ -2,7 +2,6 @@ import React from "react";
 import { useIntl } from "gatsby-plugin-react-intl";
 import BlockLayout from "../BlockLayout";
 import * as styles from "./styles.module.css";
-import Button from "../Button";
 import RunMan from "../../images/runMan.png";
 
 const LearnPlanBlock = () => {
