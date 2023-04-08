@@ -1,6 +1,8 @@
-import * as React from "react"
+import * as React from "react";
 import InitialBlock from "../components/InitialBlock";
 import EducationDivisionBlock from "../components/EducationDivisionBlock";
+import LearnPlanBlock from "../components/LearnPlanBlock";
+import CertificateBlock from "../components/CertificateBlock";
 
 const IndexPage = () => {
   return (
@@ -8,21 +10,26 @@ const IndexPage = () => {
       {/* <Header /> */}
       <InitialBlock />
       <EducationDivisionBlock />
-      {/* <LearnPlanBlock /> */}
-      {/* <CertificateBlock /> */}
+      <LearnPlanBlock />
+      <CertificateBlock />
       {/* <InvestmentJourneyBlock /> */}
       {/* <AboutBotBlock /> */}
       {/* <QuizBlock /> */}
       {/* <AboutBakksyBlock /> */}
       {/* <Footer /> */}
     </main>
-  )
-}
+  );
+};
 
-export default IndexPage
+export default IndexPage;
 
-export const Head = ({ pageContext }) => <>
-  <html lang={pageContext.language} />
-  <meta name="description" content={pageContext.intl.messages.pageDescription} />
-  <title>{pageContext.intl.messages.pageTitle}</title>
-</>
+export const Head = ({ pageContext }) => (
+  <>
+    <html lang={pageContext.language} />
+    <meta
+      name="description"
+      content={pageContext.intl.messages.pageDescription}
+    />
+    <title>{pageContext.intl.messages.pageTitle}</title>
+  </>
+);

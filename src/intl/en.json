@@ -22,5 +22,20 @@
     "createdBotForYou": "That's why we've created this bot for you to sort out the investment in the most simple and easy-to-grasp format - an educational bot in Telegram or Facebook messenger!",
     "openTheBot": "Open the Bot",
     "arrowImg": "Arrow"
+  },
+  "LearnPlanBlock": {
+    "whatWillYou": "What will you learn?",
+    "whyInvest": "Why invest at all?",
+    "fromAmount": "From what amount to start? If you start, then for what period should you invest?",
+    "theBoss": "Who's the boss?",
+    "mainPlayers": "The main players on the stock market. Risk and profit.",
+    "investIn": "What to invest in?",
+    "StocksBonds": "Stocks, bonds, ETFs.",
+    "doPrices": "Why do prices change?",
+    "newsTweets": "News, tweets, reports.",
+    "youTheNext": "Are you the next Warren Buffet?",
+    "typesRisk": "Types of investors, risk profile.",
+    "ourGoal": "  Our goal is to teach you how to invest so you know not only how to save your money but also how to increase your capital. We won't tell you how to make all the money in the world in one day, but we'll show you how to invest safely and long-term.",
+    "personRunning": "A person running with a briefcase, representing investing."
   }
 }

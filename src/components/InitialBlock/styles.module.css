@@ -5,15 +5,18 @@
   background-size: auto;
   color: #fbfaf6;
 }
+
 .invest-10-steps {
   padding-top: 32px;
 }
+
 .invest-10-steps-title {
   margin-bottom: 16px;
   font-weight: 700;
   font-size: 36px;
   line-height: 120%;
 }
+
 .free-education {
   margin-bottom: 32px;
   font-weight: 500;
@@ -21,6 +24,7 @@
   line-height: 150%;
   color: #fbfaf6;
 }
+
 .usefulness-100 {
   font-weight: 400;
   font-size: 16px;
@@ -28,20 +32,24 @@
   color: #fbfaf6;
   margin-bottom: 40px;
 }
+
 .invest-10-steps-title span,
 .free-education span,
 .usefulness-100 span {
   color: #fe6150;
 }
+
 .button-sort-out {
   width: 100%;
 }
+
 .bukksy-coin-img-container {
   margin-top: 46px;
   padding-bottom: 86px;
   display: flex;
   justify-content: center;
 }
+
 .bukksy-coin-img {
   width: 90%;
   height: auto;
@@ -57,26 +65,32 @@
     padding-top: 53px;
     padding-bottom: 53px;
   }
+
   .invest-10-steps-title {
     width: 423px;
     font-size: 48px;
   }
+
   .free-education {
     font-size: 24px;
   }
+
   .usefulness-100 {
     font-size: 18px;
   }
+
   .button-sort-out {
     margin: 0;
     width: initial;
     padding: 20px 30px;
   }
+
   .bukksy-coin-img-container {
     margin-top: 0;
     margin-left: 20px;
     padding-bottom: 0;
   }
+
   .bukksy-coin-img {
     width: 100%;
   }
