@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   background: #1a1a1a;
-  background-image: url("../../images/upperStarts.png"),
+  background-image: url("../../images/upperStartsDekstop.png"),
     url("../../images/lowerStarts.png");
   background-repeat: repeat-x, repeat-x;
   background-position: top, bottom;
@@ -58,9 +58,10 @@
   .wrapper {
     padding: 97.5px 98px;
     justify-content: space-around;
-    background-image: url("./upperStartsDekstop.png"),
-      url("./lowerStartsDekstop.png"), url("./leftStartsDekstop.png"),
-      url("./rightStartsDekstop.png");
+    background-image: url("../../images/upperStartsDekstop.png"),
+      url("../../images/lowerStartsDekstop.png"),
+      url("../../images/leftStartsDekstop.png"),
+      url("../../images/rightStartsDekstop.png");
     background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
     background-position: top, bottom, left, right;
     padding-top: 80px;

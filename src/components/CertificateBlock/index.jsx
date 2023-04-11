@@ -15,7 +15,7 @@ const CertificateBlock = () => {
         <h6>{intl.formatMessage({ id: "CertificateBlock.investors" })}</h6>
         <p>{intl.formatMessage({ id: "CertificateBlock.weWantLearn" })}</p>
         <Button type="primary" className={styles.secretFree}>
-          {Intl.formatMessage({ id: "CertificateBlock.whyWeGive" })}
+          {intl.formatMessage({ id: "CertificateBlock.whyWeGive" })}
         </Button>
         <p>{intl.formatMessage({ id: "CertificateBlock.itWillBecome" })}</p>
       </div>
