@@ -37,5 +37,13 @@
     "typesRisk": "Types of investors, risk profile.",
     "ourGoal": "  Our goal is to teach you how to invest so you know not only how to save your money but also how to increase your capital. We won't tell you how to make all the money in the world in one day, but we'll show you how to invest safely and long-term.",
     "personRunning": "A person running with a briefcase, representing investing."
+  },
+  "CertificateBlock": {
+    "whatGet": "What will you get?",
+    "investors": "The investor's certificate!",
+    "weWantLearn": "We want you not only to learn but to act. And apply your newly acquired knowledge straight away.",
+    "whyWeGive": "That's why we give you a secret free stock!",
+    "itWillBecome": " It will become a starting point of your portfolio and path to financial freedom. You will see it in your portfolio right after the Bakksy launch.",
+    "certificate": "certificate"
   }
 }
