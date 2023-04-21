@@ -3,7 +3,7 @@ import { useIntl } from "gatsby-plugin-react-intl";
 import BlockLayout from "../BlockLayout";
 import * as styles from "./styles.module.css";
 import Button from "../Button";
-import whiteArrowOutward from "../../images/whiteArrowOutward";
+import whiteArrowOutward from "../../images/whiteArrowOutward.png";
 import checkArrow from "../../images/checkArrow.png";
 import moonMan from "../../images/moonMan.png";
 
