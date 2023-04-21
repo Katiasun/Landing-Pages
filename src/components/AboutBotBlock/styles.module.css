@@ -1,0 +1,95 @@
+.wrapper {
+  background: #202020;
+  background-image: url("../../images/bgGrid.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.moonManImg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  order: 1;
+}
+
+.contentYouNeed {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tittleYouNeed {
+  margin-bottom: 40px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 120%;
+  color: #fbfaf6;
+}
+
+.checkList {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 40px;
+}
+
+.checkArrowAndText {
+  display: flex;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 150%;
+  color: #fbfaf6;
+}
+
+.checkArrowAndText p {
+  margin: 0;
+}
+
+.checkArrowAndText span {
+  color: rgba(254, 97, 80, 1);
+}
+
+.checkArrow {
+  display: block;
+  margin-right: 16px;
+  height: fit-content;
+}
+
+.btnReady {
+  display: flex;
+  align-items: center;
+  padding: 20px 119px;
+  background: #fe6150;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  color: #fbfaf6;
+  cursor: pointer;
+}
+
+.btnReady img {
+  margin-left: 8px;
+}
+
+/* @MEDIA */
+@media screen and (min-width: 768px) {
+  .moonManImg img {
+    max-width: 475px;
+  }
+
+  .contentYouNeed {
+    align-items: flex-start;
+  }
+
+  .tittleYouNeed {
+    font-size: 48px;
+  }
+
+  .btnReady {
+    padding: 20px 38px;
+    width: 200px;
+  }
+}
