@@ -15,54 +15,54 @@ const AboutBotBlock = () => {
       <div className={styles.moonManImg}>
         <img
           src={moonMan}
-          alt={intl.formatMessage({ id: "AboutBotBlock.MoonMan" })}
+          alt={intl.formatMessage({ id: "aboutBotBlock.MoonMan" })}
         />
       </div>
       <div className={styles.contentYouNeed}>
         <h1 className={styles.tittleYouNeed}>
-          {intl.formatMessage({ id: "AboutBotBlock.youNeedThis" })}
+          {intl.formatMessage({ id: "aboutBotBlock.youNeedThis" })}
         </h1>
         <div className={styles.checkList}>
           <div className={styles.checkArrowAndText}>
             <img
               className={styles.checkArrow}
               src={checkArrow}
-              alt={intl.formatMessage({ id: "AboutBotBlock.checkArrow" })}
+              alt={intl.formatMessage({ id: "aboutBotBlock.checkArrow" })}
             />
             <p>
-              {intl.formatMessage({ id: "AboutBotBlock.toStartInvesting" })}
+              {intl.formatMessage({ id: "aboutBotBlock.toStartInvesting" })}
               &nbsp;
               <span>
-                {intl.formatMessage({ id: "AboutBotBlock.tooAfraid" })}
+                {intl.formatMessage({ id: "aboutBotBlock.tooAfraid" })}
               </span>
               &nbsp;
-              {intl.formatMessage({ id: "AboutBotBlock.toDo" })}
+              {intl.formatMessage({ id: "aboutBotBlock.toDo" })}
             </p>
           </div>
           <div className={styles.checkArrowAndText}>
             <img
               className={styles.checkArrow}
               src={checkArrow}
-              alt={intl.formatMessage({ id: "AboutBotBlock.checkArrow" })}
+              alt={intl.formatMessage({ id: "aboutBotBlock.checkArrow" })}
             />
             <p>
-              {intl.formatMessage({ id: "AboutBotBlock.wantTo" })} &nbsp;
+              {intl.formatMessage({ id: "aboutBotBlock.wantTo" })} &nbsp;
               <span>
-                {intl.formatMessage({ id: "AboutBotBlock.saveGrow" })}
+                {intl.formatMessage({ id: "aboutBotBlock.saveGrow" })}
               </span>
-              &nbsp; {intl.formatMessage({ id: "AboutBotBlock.money" })}
+              &nbsp; {intl.formatMessage({ id: "aboutBotBlock.money" })}
             </p>
           </div>
           <div className={styles.checkArrowAndText}>
             <img
               className={styles.checkArrow}
               src={checkArrow}
-              alt={intl.formatMessage({ id: "AboutBotBlock.checkArrow" })}
+              alt={intl.formatMessage({ id: "aboutBotBlock.checkArrow" })}
             />
             <p>
-              {intl.formatMessage({ id: "AboutBotBlock.toBecome" })}&nbsp;
+              {intl.formatMessage({ id: "aboutBotBlock.toBecome" })}&nbsp;
               <span>
-                {intl.formatMessage({ id: "AboutBotBlock.independent" })}
+                {intl.formatMessage({ id: "aboutBotBlock.independent" })}
               </span>
             </p>
           </div>
@@ -70,42 +70,42 @@ const AboutBotBlock = () => {
             <img
               className={styles.checkArrow}
               src={checkArrow}
-              alt={intl.formatMessage({ id: "AboutBotBlock.checkArrow" })}
+              alt={intl.formatMessage({ id: "aboutBotBlock.checkArrow" })}
             />
             <p>
               <span>
-                {intl.formatMessage({ id: "AboutBotBlock.doNotKnow" })}{" "}
+                {intl.formatMessage({ id: "aboutBotBlock.doNotKnow" })}{" "}
               </span>
               &nbsp;
-              {intl.formatMessage({ id: "AboutBotBlock.differenceBetween" })}
+              {intl.formatMessage({ id: "aboutBotBlock.differenceBetween" })}
             </p>
           </div>
           <div className={styles.checkArrowAndText}>
             <img
               className={styles.checkArrow}
               src={checkArrow}
-              alt={intl.formatMessage({ id: "AboutBotBlock.checkArrow" })}
+              alt={intl.formatMessage({ id: "aboutBotBlock.checkArrow" })}
             />
             <p>
-              {intl.formatMessage({ id: "AboutBotBlock.ReadyTo" })} &nbsp;
+              {intl.formatMessage({ id: "aboutBotBlock.ReadyTo" })} &nbsp;
               <span>
                 {" "}
-                {intl.formatMessage({ id: "AboutBotBlock.longTerm" })}
+                {intl.formatMessage({ id: "aboutBotBlock.longTerm" })}
               </span>
               &nbsp;
-              {intl.formatMessage({ id: "AboutBotBlock.investor" })}
+              {intl.formatMessage({ id: "aboutBotBlock.investor" })}
             </p>
           </div>
           <div className={styles.checkArrowAndText}>
             <img
               className={styles.checkArrow}
               src={checkArrow}
-              alt={intl.formatMessage({ id: "AboutBotBlock.checkArrow" })}
+              alt={intl.formatMessage({ id: "aboutBotBlock.checkArrow" })}
             />
             <p>
-              {intl.formatMessage({ id: "AboutBotBlock.wantToLook" })} &nbsp;
+              {intl.formatMessage({ id: "aboutBotBlock.wantToLook" })} &nbsp;
               <span>
-                {intl.formatMessage({ id: "AboutBotBlock.illusions" })}
+                {intl.formatMessage({ id: "aboutBotBlock.illusions" })}
               </span>
             </p>
           </div>
@@ -113,23 +113,23 @@ const AboutBotBlock = () => {
             <img
               className={styles.checkArrow}
               src={checkArrow}
-              alt={intl.formatMessage({ id: "AboutBotBlock.checkArrow" })}
+              alt={intl.formatMessage({ id: "aboutBotBlock.checkArrow" })}
             />
             <p>
-              {intl.formatMessage({ id: "AboutBotBlock.wantTo" })}&nbsp;
+              {intl.formatMessage({ id: "aboutBotBlock.wantTo" })}&nbsp;
               <span>
-                {intl.formatMessage({ id: "AboutBotBlock.confident" })}
+                {intl.formatMessage({ id: "aboutBotBlock.confident" })}
               </span>
               &nbsp;
-              {intl.formatMessage({ id: "AboutBotBlock.yourInvestment" })}
+              {intl.formatMessage({ id: "aboutBotBlock.yourInvestment" })}
             </p>
           </div>
         </div>
         <Button type="primary" className={styles.btnReady}>
-          {intl.formatMessage({ id: "AboutBotBlock.IAmReady" })}
+          {intl.formatMessage({ id: "aboutBotBlock.IAmReady" })}
           <img
             src={whiteArrowOutward}
-            alt={intl.formatMessage({ id: "AboutBotBlock.whiteArrow" })}
+            alt={intl.formatMessage({ id: "aboutBotBlock.whiteArrow" })}
           />
         </Button>
       </div>
