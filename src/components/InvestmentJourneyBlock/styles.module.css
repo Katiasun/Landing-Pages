@@ -1,0 +1,84 @@
+.wrapper {
+  background-color: rgba(153, 98, 246, 1);
+  background-image: url("../../images/leftTraingle.png"),
+    url("../../images/rightRraingle.png");
+  background-position: top left, right bottom;
+  background-repeat: no-repeat, no-repeat;
+  background-size: inherit, inherit;
+}
+
+.contentTittleAndParagraph {
+  margin-bottom: 0 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tittleReadyFor {
+  margin-bottom: 16px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 120%;
+  text-align: center;
+  color: #fbfaf6;
+}
+
+.paragraphWithOur {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: #fbfaf6;
+}
+
+.fourCards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+  gap: 16px;
+}
+
+.itemCard {
+  padding: 24px;
+  background: #f7c744;
+  border: 2px solid #663dab;
+  box-shadow: -4px 5px 0px #663dab;
+  border-radius: 16px;
+  color: #202020;
+  line-height: 150%;
+}
+
+.titleCard {
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 22px;
+}
+
+.textCard {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+/* @MEDIA */
+@media screen and (min-width: 768px) {
+  .tittleReadyFor {
+    font-size: 48px;
+  }
+
+  .paragraphWithOur {
+    font-size: 18px;
+    width: 572px;
+  }
+
+  .fourCards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 16px;
+  }
+
+  .itemCard {
+    width: 370px;
+  }
+}
