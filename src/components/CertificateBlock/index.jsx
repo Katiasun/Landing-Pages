@@ -2,10 +2,11 @@ import React from "react";
 import { useIntl } from "gatsby-plugin-react-intl";
 import BlockLayout from "../BlockLayout";
 import * as styles from "./styles.module.css";
+import Certificate from "../../images/Certificate.png";
+import Button from "../Button";
 
 const CertificateBlock = () => {
   const intl = useIntl();
-
 
   return (
     <BlockLayout className={styles.wrapper}>
@@ -26,7 +27,6 @@ const CertificateBlock = () => {
       </div>
     </BlockLayout>
   );
-
 };
 
 export default CertificateBlock;
