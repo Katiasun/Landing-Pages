@@ -5,6 +5,7 @@ import LearnPlanBlock from "../components/LearnPlanBlock";
 import CertificateBlock from "../components/CertificateBlock";
 import InvestmentJourneyBlock from "../components/InvestmentJourneyBlock";
 import AboutBotBlock from "../components/AboutBotBlock";
+import QuizBlock from "../components/QuizBlock";
 
 const IndexPage = () => {
   return (
@@ -16,7 +17,7 @@ const IndexPage = () => {
       <CertificateBlock />
       <InvestmentJourneyBlock />
       <AboutBotBlock />
-      {/* <QuizBlock /> */}
+      <QuizBlock />
       {/* <AboutBakksyBlock /> */}
       {/* <Footer /> */}
     </main>
