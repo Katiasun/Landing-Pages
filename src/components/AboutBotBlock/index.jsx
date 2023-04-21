@@ -74,7 +74,7 @@ const AboutBotBlock = () => {
             />
             <p>
               <span>
-                {intl.formatMessage({ id: "aboutBotBlock.doNotKnow" })}{" "}
+                {intl.formatMessage({ id: "aboutBotBlock.doNotKnow" })}
               </span>
               &nbsp;
               {intl.formatMessage({ id: "aboutBotBlock.differenceBetween" })}
@@ -89,7 +89,6 @@ const AboutBotBlock = () => {
             <p>
               {intl.formatMessage({ id: "aboutBotBlock.ReadyTo" })} &nbsp;
               <span>
-                {" "}
                 {intl.formatMessage({ id: "aboutBotBlock.longTerm" })}
               </span>
               &nbsp;
