@@ -2,7 +2,6 @@ import React from "react";
 import { useIntl } from "gatsby-plugin-react-intl";
 import BlockLayout from "../BlockLayout";
 import * as styles from "./styles.module.css";
-import trainlesLower from "../../images/lowerTrainglesBlock.png";
 
 const InvestmentJourneyBlock = () => {
   const intl = useIntl();
@@ -55,13 +54,6 @@ const InvestmentJourneyBlock = () => {
           </p>
         </div>
       </div>
-      <img
-        className={styles.lowerTriangle}
-        src={trainlesLower}
-        alt={intl.formatMessage({
-          id: "InvestmentJourneyBlock.trianglesLower",
-        })}
-      />
     </BlockLayout>
   );
 };
