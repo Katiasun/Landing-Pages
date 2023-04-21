@@ -1,0 +1,125 @@
+.wrapper {
+  background: #5058f6;
+  background-image: url("../../images/traingles.png"),
+    url("../../images/trainglesLower.png");
+  background-position: top left, right bottom;
+  background-repeat: no-repeat, no-repeat;
+  background-size: inherit, inherit;
+}
+
+.informativeBlock {
+  color: #fbfaf6;
+  text-align: center;
+}
+
+.informativeBlock h1 {
+  margin-bottom: 16px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 120%;
+}
+
+.informativeBlock p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.mobileCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  background: #fbfaf6;
+  border: 2px solid #363dc4;
+  box-shadow: -4px 5px 0px #363dc4;
+  border-radius: 16px;
+}
+
+.mobileTittle {
+  margin-top: 24px;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 150%;
+  text-align: center;
+  color: #202020;
+}
+
+.cardInteractive {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 24px;
+  margin: 24px;
+}
+
+.answerItem {
+  padding: 16px;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 16px 16px 2px 2px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #202020;
+}
+
+.answerItem:not(:last-child) {
+  margin-bottom: 4px;
+}
+
+.midleAnswer {
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 2px;
+}
+
+.answerItem span {
+  margin-right: 16px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  color: #5058f6;
+}
+
+.btnNext {
+  padding: 12px 43px;
+  background: #5058f6;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  color: #fbfaf6;
+  cursor: pointer;
+}
+
+/* @MEDIA */
+@media screen and (min-width: 768px) {
+  .contentStillHaveDoubts {
+    background: #5058f6;
+    background-image: url("../../images/traingles.png"),
+      url("../../images/trainglesLower.png");
+    background-position: top left, right bottom;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 25%, 30%;
+  }
+
+  .informativeBlock {
+    width: 500px;
+  }
+
+  .informativeBlock h1 {
+    font-size: 48px;
+  }
+
+  .informativeBlock p {
+    font-size: 18px;
+    width: 450px;
+  }
+
+  .mobileCard {
+    width: 500px;
+  }
+}
