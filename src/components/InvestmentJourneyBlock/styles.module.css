@@ -7,13 +7,6 @@
   background-size: inherit, inherit;
 }
 
-.lowerTriangle {
-  position: relative;
-  bottom: -56px;
-  left: -13px;
-  opacity: 0.1;
-}
-
 .contentTittleAndParagraph {
   margin-bottom: 0 16px;
   display: flex;
@@ -76,11 +69,6 @@
   .paragraphWithOur {
     font-size: 18px;
     width: 572px;
-  }
-
-  .upperTriangle,
-  .lowerTriangle {
-    display: none;
   }
 
   .fourCards {
