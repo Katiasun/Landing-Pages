@@ -73,5 +73,14 @@
     "IAmReady": " I'm Ready!",
     "checkArrow": "check arrow",
     "whiteArrow": "white arrow"
+  },
+  "quizBlock": {
+    "stillHave": "Still have doubts whether you need this?",
+    "ifYouThink": "If you think that you already know everything you need, take our investment test.",
+    "whatIsDiversification": "What is diversification?",
+    "theVariability": "It's the variability of the price on the market",
+    "aPriceDecrease": "A price decrease",
+    "dividingTheMoney": "Dividing the money between different assets",
+    "next": "Next"
   }
 }
