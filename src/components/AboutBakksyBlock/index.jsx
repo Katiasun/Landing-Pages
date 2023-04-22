@@ -12,38 +12,38 @@ const AboutBakksyBlock = () => {
   return (
     <BlockLayout className={styles.wrapper}>
       <div className={styles.threeImgMobile}>
-        <img src={threeMobile} alt="three mobile" />
+        <img
+          src={threeMobile}
+          alt={intl.formatMessage({ id: "aboutBakksyBlock.threeMobile" })}
+        />
       </div>
       <div className={styles.wrapperWhatBukksy}>
         <div className={styles.contentBakksy}>
           <div className={styles.bakksyInvestmentApp}>
-            <h1>What's Bakksy?</h1>
-            <p>
-              Bakksy is an investment app for novices that is about to rock the
-              world of finance and investment.
-            </p>
+            <h1>{intl.formatMessage({ id: "aboutBakksyBlock.whatBakksy" })}</h1>
+            <p>{intl.formatMessage({ id: "aboutBakksyBlock.bakksyIsAn" })}</p>
           </div>
           <div className={styles.twoParagraphsOfBakksy}>
-            <p>
-              At Bakksy, we truly believe that all people should have access to
-              financial freedom. To do that, we have to deal with two essential
-              tasks:
-            </p>
+            <p>{intl.formatMessage({ id: "aboutBakksyBlock.atBakksyWe" })}</p>
             <ul>
-              <li>Teach people how to invest</li>
-              <li>Create the app with the best investment experience</li>
+              <li>
+                {intl.formatMessage({ id: "aboutBakksyBlock.teachPeople" })}
+              </li>
+              <li>
+                {intl.formatMessage({ id: "aboutBakksyBlock.createTheApp" })}
+              </li>
             </ul>
             <p>
-              Because only by making wise and conscious investment decisions can
-              you win in the long-term and receive financial independence. So
-              use our educational bot to get started and prepare for the
-              greatest investment journey with Bakksy!
+              {intl.formatMessage({ id: "aboutBakksyBlock.BecauseOnlyBy" })}
             </p>
           </div>
         </div>
         <Button className={styles.btnInvestment}>
-          Learn investment
-          <img src={whiteArrowOut} alt="arrow" />
+          {intl.formatMessage({ id: "aboutBakksyBlock.LearnInvestment" })}
+          <img
+            src={whiteArrowOut}
+            alt={intl.formatMessage({ id: "aboutBakksyBlock.arrow" })}
+          />
         </Button>
       </div>
     </BlockLayout>
