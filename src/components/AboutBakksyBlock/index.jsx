@@ -3,6 +3,7 @@ import * as styles from "./styles.module.css";
 import { useIntl } from "gatsby-plugin-react-intl";
 import BlockLayout from "../BlockLayout";
 import Button from "../Button";
+import threeMobile from "../../images/threeMobile.png";
 import whiteArrowOut from "../../images/whiteArrowOutward.png";
 
 const AboutBakksyBlock = () => {
@@ -11,7 +12,7 @@ const AboutBakksyBlock = () => {
   return (
     <BlockLayout className={styles.wrapper}>
       <div className={styles.threeImgMobile}>
-        <img src="./threeMobile.png" alt="three mobile" />
+        <img src={threeMobile} alt="three mobile" />
       </div>
       <div className={styles.wrapperWhatBukksy}>
         <div className={styles.contentBakksy}>
