@@ -38,7 +38,7 @@ const AboutBakksyBlock = () => {
             </p>
           </div>
         </div>
-        <Button className={styles.btnInvestment}>
+        <Button type="primery" className={styles.btnInvestment}>
           {intl.formatMessage({ id: "aboutBakksyBlock.LearnInvestment" })}
           <img
             src={whiteArrowOut}
