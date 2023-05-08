@@ -59,13 +59,14 @@
 }
 
 .btnInvestment {
-  /* background-image: url("../../images/whiteArrowOutward.png"); */
+  background-image: url("../../images/whiteArrowOutward.png");
   background-repeat: no-repeat;
   background-size: auto;
+  background-position: 95%;
+  background-color: #fe6150;
   display: flex;
   align-items: center;
   padding: 20px 16px;
-  background: #fe6150;
   border-radius: 10px;
   font-weight: 600;
   font-size: 18px;
