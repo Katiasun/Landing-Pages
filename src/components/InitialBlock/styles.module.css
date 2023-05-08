@@ -2,7 +2,7 @@
   background: #202020;
   background-image: url("../../images/bgGrid.png");
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: cover;
   color: #fbfaf6;
 }
 

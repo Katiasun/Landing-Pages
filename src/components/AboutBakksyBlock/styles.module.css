@@ -2,7 +2,7 @@
   background: #202020;
   background-image: url("../../images/bgGrid.png");
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: cover;
 }
 
 .threeImgMobile {
@@ -59,6 +59,9 @@
 }
 
 .btnInvestment {
+  /* background-image: url("../../images/whiteArrowOutward.png"); */
+  background-repeat: no-repeat;
+  background-size: auto;
   display: flex;
   align-items: center;
   padding: 20px 16px;
@@ -71,9 +74,9 @@
   color: #fbfaf6;
   cursor: pointer;
 }
-.btnInvestment img {
+/* .btnInvestment img {
   margin-left: 8px;
-}
+} */
 /* @MEDIA  */
 @media screen and (min-width: 768px) {
   .threeImgMobile {
