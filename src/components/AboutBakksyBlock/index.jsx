@@ -4,7 +4,6 @@ import { useIntl } from "gatsby-plugin-react-intl";
 import BlockLayout from "../BlockLayout";
 import Button from "../Button";
 import threeMobile from "../../images/threeMobile.png";
-// import whiteArrowOut from "../../images/whiteArrowOutward.png";
 
 const AboutBakksyBlock = () => {
   const intl = useIntl();
@@ -40,10 +39,6 @@ const AboutBakksyBlock = () => {
         </div>
         <Button type="secondary" className={styles.btnInvestment}>
           {intl.formatMessage({ id: "aboutBakksyBlock.LearnInvestment" })}
-          {/* <img
-            src={whiteArrowOut}
-            alt={intl.formatMessage({ id: "aboutBakksyBlock.arrow" })}
-          /> */}
         </Button>
       </div>
     </BlockLayout>
