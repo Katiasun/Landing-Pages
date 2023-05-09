@@ -2,6 +2,12 @@ import * as React from "react";
 import { useIntl } from "gatsby-plugin-react-intl";
 import BlockLayout from "../BlockLayout";
 import * as styles from "./styles.module.css";
+import FooterLogo from "../../images/footerLogo.png";
+import Instagram from "../../images/instagram.png";
+import Linkedin from "../../images/linkedin.png";
+import Facebook from "../../images/facebook.png";
+import Twitter from "../../images/twitter.png";
+import Carbon from "../../images/carbonLogoMedium.png";
 
 const Footer = () => {
   const intl = useIntl();
@@ -11,7 +17,7 @@ const Footer = () => {
       <div className={styles.bakksyInfo}>
         <div className={styles.logoAndPathFinder}>
           <img
-            src="./footer-logo.png"
+            src={FooterLogo}
             alt={intl.formatMessage({ id: "footer.redLogo" })}
           />
           <div className={styles.pathFinder}>
@@ -28,31 +34,31 @@ const Footer = () => {
           <div className={styles.mediaLinks}>
             <a href=" https://www.instagram.com/bakksy_app/">
               <img
-                src="./instagram-logo.png"
+                src={Instagram}
                 alt={intl.formatMessage({ id: "footer.instagram" })}
               />
             </a>
             <a href="https://www.linkedin.com/company/bakksy">
               <img
-                src="./linkedin.png"
+                src={Linkedin}
                 alt={intl.formatMessage({ id: "footer.linkedin" })}
               />
             </a>
             <a href=" https://www.facebook.com/get.bakksy">
               <img
-                src="./facebook.png"
+                src={Facebook}
                 alt={intl.formatMessage({ id: "footer.facebook" })}
               />
             </a>
             <a href="https://twitter.com/Bakksy_app">
               <img
-                src="./twitter.png"
+                src={Twitter}
                 alt={intl.formatMessage({ id: "footer.twitter" })}
               />
             </a>
             <a href="https://bakksy.medium.com/">
               <img
-                src="./carbon_logo-medium.png"
+                src={Carbon}
                 alt={intl.formatMessage({ id: "footer.carbon" })}
               />
             </a>
