@@ -1,4 +1,4 @@
-import * as React from "react";
+import React from "react";
 import { useIntl } from "gatsby-plugin-react-intl";
 import BlockLayout from "../BlockLayout";
 import * as styles from "./styles.module.css";
