@@ -8,10 +8,10 @@ const Footer = () => {
 
   return (
     <BlockLayout className={styles.wrapper}>
-      <div class="bakksy-info">
-        <div class="logo-and-path-finder">
+      <div className={styles.bakksyInfo}>
+        <div className={styles.logoAndPathFinder}>
           <img src="./footer-logo.png" alt="red logo" />
-          <div class="path-finder">
+          <div className={styles.pathFinder}>
             <a href="#">Education</a>
             <a href="#">Giveaway</a>
             <a href="https://www.notion.so/bakksy/81494ba2bdd143a2b44ca6db9125b720?v=6e95eba989f14d60bcef570211645a05">
@@ -20,9 +20,9 @@ const Footer = () => {
           </div>
         </div>
 
-        <div class="socials">
+        <div className={styles.socials}>
           <p>Stay up to date</p>
-          <div class="media-links">
+          <div className={styles.mediaLinks}>
             <a href=" https://www.instagram.com/bakksy_app/">
               <img src="./instagram-logo.png" alt="instagram" />
             </a>
@@ -41,8 +41,8 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div class="bakksy-copyright">
-        <div class="two-paragraps-and-br">
+      <div className={styles.bakksyCopyright}>
+        <div className={styles.twoParagrapsAndBr}>
           <p>© Bakksy 2023. All rights reserved.</p>
           <br />
           <p>
@@ -50,7 +50,7 @@ const Footer = () => {
             in Estonia by address Tornimäe 3, Tallinn 10145 (No. 16575205).
           </p>
         </div>
-        <div class="clear-connect">
+        <div className={styles.clearConnect}>
           <a href=" https://www.notion.so/bakksy/Terms-Conditions-b1d08d75489b44e8b108b7d20fa396ca">
             Terms
           </a>
