@@ -82,5 +82,15 @@
     "aPriceDecrease": "A price decrease",
     "dividingTheMoney": "Dividing the money between different assets",
     "next": "Next"
+  },
+  "aboutBakksyBlock": {
+    "threeMobile": "three mobile",
+    "whatBakksy": "What's Bakksy?",
+    "bakksyIsAn": "Bakksy is an investment app for novices that is about to rock the world of finance and investment.",
+    "atBakksyWe": " At Bakksy, we truly believe that all people should have access to financial freedom. To do that, we have to deal with two essential tasks:",
+    "teachPeople": "Teach people how to invest",
+    "createTheApp": "Create the app with the best investment experience",
+    "BecauseOnlyBy": "Because only by making wise and conscious investment decisions can you win in the long-term and receive financial independence. So use our educational bot to get started and prepare for the greatest investment journey with Bakksy!",
+    "LearnInvestment": "Learn investment"
   }
 }
