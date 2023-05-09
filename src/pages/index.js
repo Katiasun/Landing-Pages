@@ -7,6 +7,7 @@ import InvestmentJourneyBlock from "../components/InvestmentJourneyBlock";
 import AboutBotBlock from "../components/AboutBotBlock";
 import QuizBlock from "../components/QuizBlock";
 import AboutBakksyBlock from "../components/AboutBakksyBlock";
+import Footer from "../components/Footer";
 
 const IndexPage = () => {
   return (
@@ -20,7 +21,7 @@ const IndexPage = () => {
       <AboutBotBlock />
       <QuizBlock />
       <AboutBakksyBlock />
-      {/* <Footer /> */}
+      <Footer />
     </main>
   );
 };
