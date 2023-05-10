@@ -41,7 +41,7 @@ const Header = () => {
         >
           EN
         </Button>
-        <Button className={styles.investmentBtn}>
+        <Button type="primary" className={styles.investmentBtn}>
           {intl.formatMessage({ id: "header.learnInvestment" })}
         </Button>
         <div className={styles.burgerMenu} aria-label="Mobile Menu">
