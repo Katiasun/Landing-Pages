@@ -1,7 +1,16 @@
 {
   "pageTitle": "Bakksy Education",
   "pageDescription": "Bakksy Education",
-
+  "header": {
+    "bakksyLogo": "Bakksy Logo",
+    "roadmap": "Roadmap",
+    "aboutBakksy": "About Bakksy",
+    "waitlist": "Waitlist",
+    "faq": "FAQ",
+    "arrowIcon": "Arrow Down Icon",
+    "languageSwitcher": "Language Switcher",
+    "learnInvestment": "Learn Investment"
+  },
   "initialBlock": {
     "becomeInvestorTitle": "Become An Investor In",
     "becomeInvestorTitleSteps": "10 Steps",
