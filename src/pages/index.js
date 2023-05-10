@@ -1,4 +1,5 @@
 import * as React from "react";
+import Header from "../components/Header";
 import InitialBlock from "../components/InitialBlock";
 import EducationDivisionBlock from "../components/EducationDivisionBlock";
 import LearnPlanBlock from "../components/LearnPlanBlock";
@@ -12,7 +13,7 @@ import Footer from "../components/Footer";
 const IndexPage = () => {
   return (
     <main>
-      {/* <Header /> */}
+      <Header />
       <InitialBlock />
       <EducationDivisionBlock />
       <LearnPlanBlock />
