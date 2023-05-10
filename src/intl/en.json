@@ -92,5 +92,22 @@
     "createTheApp": "Create the app with the best investment experience",
     "BecauseOnlyBy": "Because only by making wise and conscious investment decisions can you win in the long-term and receive financial independence. So use our educational bot to get started and prepare for the greatest investment journey with Bakksy!",
     "LearnInvestment": "Learn investment"
+  },
+  "footer": {
+    "redLogo": "red logo",
+    "education": "Education",
+    "giveaway": "Giveaway",
+    "roadmap": "Roadmap",
+    "stayUp": "Stay up to date",
+    "instagram": "instagram",
+    "linkedin": "linkedin",
+    "facebook": "facebook",
+    "twitter": "twitter",
+    "carbon": "carbon",
+    "bakksy2023": "© Bakksy 2023. All rights reserved.",
+    "bakksyIsTrading": "Bakksy is a trading name of Bakksy Finance OÜ, which is a registered in Estonia by address Tornimäe 3, Tallinn 10145 (No. 16575205).",
+    "terms": "Terms",
+    "privacy": "Privacy",
+    "cookies": "Cookies"
   }
 }
