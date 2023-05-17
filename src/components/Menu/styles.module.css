@@ -49,21 +49,23 @@
 }
 
 .mobileMenuItems {
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  width: 200px;
-  padding: 0;
-  margin: 0;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  box-sizing: border-box;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s, visibility 0.3s;
+  z-index: 2;
   background-color: transparent;
-  color: #fbfaf6;
   list-style: none;
   font-size: 16px;
   line-height: 24px;
   list-style-type: none;
-  transform: translateX(100%);
-  transition: transform 0.3s ease;
 }
 
 .mobileMenuItems li {
