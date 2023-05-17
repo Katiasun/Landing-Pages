@@ -16,84 +16,50 @@ const Header = () => {
 
   return (
     <BlockLayout className={styles.header}>
-      <div className={styles.logo}>
-        <img src={Logo} alt={intl.formatMessage({ id: "header.bakksyLogo" })} />
-      </div>
-      <nav className={`mobile-menu ${isMobileMenuOpen ? "active" : ""}`}>
-        {/* Декстопне меню */}
-        <ul className={styles.desktopMenu}>
-          <li>Giveaway</li>
-          <li>Education Bot</li>
-          <li>FAQ</li>
-        </ul>
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "row",
+          justifyContent: "space-around",
+          padding: "20px 10px",
+        }}
+      >
+        <div className={styles.logo}>
+          <img
+            src={Logo}
+            alt={intl.formatMessage({ id: "header.bakksyLogo" })}
+          />
+        </div>
 
-        {/* Мобільне меню (меню-бургер) */}
-        <div className={styles.mobileMenu}>
-          <button className={styles.burgerButton} onClick={handleBurgerClick}>
-            <span className={styles.line}></span>
-            <span className={styles.line}></span>
-            <span className={styles.line}></span>
-          </button>
-          <ul className={styles.mobileMenuItems}>
+        <div className={styles.languageSwitch}>
+          <img
+            src={ArrowDown}
+            alt={intl.formatMessage({ id: "header.arrowIcon" })}
+          />
+          <button className={styles.languageSwitchBtn}>EN</button>
+        </div>
+
+        {/* <Button className={styles.leaveInvestmentButton} type="primary">
+          Leave investment
+        </Button> */}
+
+        <nav
+          className={`${styles.mobileMenu} ${isMobileMenuOpen ? "active" : ""}`}
+        >
+          <div className={styles.burgerButton} onClick={handleBurgerClick}>
+            <div className={styles.line}></div>
+            <div className={styles.line}></div>
+            <div className={styles.line}></div>
+          </div>
+          <ul className={styles.mobileMenuItems} style={{ display: "none" }}>
             <li>Giveaway</li>
             <li>Education Bot</li>
             <li>FAQ</li>
           </ul>
-        </div>
-      </nav>
-
-      <div className={styles.languageSwitch}>
-        <img
-          src={ArrowDown}
-          alt={intl.formatMessage({ id: "header.arrowIcon" })}
-        />
-        <button className={styles.languageSwitchBtn}>EN</button>
-
-        <Button className={styles.leaveInvestmentButton} type="primary">
-          Leave investment
-        </Button>
+        </nav>
       </div>
     </BlockLayout>
   );
 };
 
 export default Header;
-//  <div className={styles.logo}>
-//         <img src={Logo} alt={intl.formatMessage({ id: "header.bakksyLogo" })} />
-//       </div>
-//       <nav>
-//         <ul className={styles.listHeader}>
-//           <li className={styles.item}>
-//             <a href="#">{intl.formatMessage({ id: "header.roadmap" })}</a>
-//           </li>
-//           <li className={styles.item}>
-//             <a href="#">{intl.formatMessage({ id: "header.aboutBakksy" })}</a>
-//           </li>
-//           <li className={styles.item}>
-//             <a href="#">{intl.formatMessage({ id: "header.waitlist" })}</a>
-//           </li>
-//           <li className={styles.item}>
-//             <a href="#">{intl.formatMessage({ id: "header.faq" })}</a>
-//           </li>
-//         </ul>
-//       </nav>
-//       <div className={styles.frameButtons}>
-//         <img
-//           src={ArrowDown}
-//           alt={intl.formatMessage({ id: "header.arrowIcon" })}
-//         />
-//         <Button
-//           className={styles.languageSwitcher}
-//           aria-label={intl.formatMessage({ id: "header.languageSwitcher" })}
-//         >
-//           EN
-//         </Button>
-//         <Button type="primary" className={styles.investmentBtn}>
-//           {intl.formatMessage({ id: "header.learnInvestment" })}
-//         </Button>
-//         <div className={styles.burgerMenu} aria-label="Mobile Menu">
-//           <span className={(`${styles.line}`, `${styles.line1}`)}></span>
-//           <span className={(`${styles.line}`, `${styles.line2}`)}></span>
-//           <span className={(`${styles.line}`, `${styles.line3}`)}></span>
-//         </div>
-//       </div>

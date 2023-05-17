@@ -14,6 +14,7 @@ const InitialBlock = () => {
         <h2 className={styles.invest10StepsTitle}>
           {intl.formatMessage({ id: "initialBlock.becomeInvestorTitle" })}
           <span>
+            &nbsp;
             {intl.formatMessage({
               id: "initialBlock.becomeInvestorTitleSteps",
             })}
