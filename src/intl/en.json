@@ -11,6 +11,11 @@
     "languageSwitcher": "Language Switcher",
     "learnInvestment": "Learn Investment"
   },
+  "menu": {
+    "giveaway": "Giveaway",
+    "educationBot": "Education Bot",
+    "faq": "FAQ"
+  },
   "initialBlock": {
     "becomeInvestorTitle": "Become An Investor In",
     "becomeInvestorTitleSteps": "10 Steps",

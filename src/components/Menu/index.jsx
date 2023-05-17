@@ -18,9 +18,9 @@ const Menu = () => {
         <div className={styles.line}></div>
       </div>
       <ul className={styles.mobileMenuItems} style={{ display: "none" }}>
-        <li>Giveaway</li>
-        <li>Education Bot</li>
-        <li>FAQ</li>
+        <li>{intl.formatMessage({ id: "menu.giveaway" })}</li>
+        <li>{intl.formatMessage({ id: "menu.educationBot" })}</li>
+        <li>{intl.formatMessage({ id: "menu.faq" })}</li>
       </ul>
     </nav>
   );
