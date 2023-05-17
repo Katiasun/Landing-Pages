@@ -5,14 +5,10 @@ import * as styles from "./styles.module.css";
 import Button from "../Button";
 import Logo from "../../images/logo.png";
 import ArrowDown from "../../images/arrwoDown.png";
+import Menu from "../Menu";
 
 const Header = () => {
   const intl = useIntl();
-  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-
-  const handleBurgerClick = () => {
-    setIsMobileMenuOpen(!isMobileMenuOpen);
-  };
 
   return (
     <BlockLayout className={styles.header}>
@@ -42,21 +38,7 @@ const Header = () => {
         {/* <Button className={styles.leaveInvestmentButton} type="primary">
           Leave investment
         </Button> */}
-
-        <nav
-          className={`${styles.mobileMenu} ${isMobileMenuOpen ? "active" : ""}`}
-        >
-          <div className={styles.burgerButton} onClick={handleBurgerClick}>
-            <div className={styles.line}></div>
-            <div className={styles.line}></div>
-            <div className={styles.line}></div>
-          </div>
-          <ul className={styles.mobileMenuItems} style={{ display: "none" }}>
-            <li>Giveaway</li>
-            <li>Education Bot</li>
-            <li>FAQ</li>
-          </ul>
-        </nav>
+        <Menu />
       </div>
     </BlockLayout>
   );
