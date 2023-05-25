@@ -17,6 +17,7 @@ const Header = () => {
           display: "flex",
           flexDirection: "row",
           justifyContent: "space-around",
+          alignItems: "center",
           padding: "20px 10px",
         }}
       >
@@ -26,19 +27,20 @@ const Header = () => {
             alt={intl.formatMessage({ id: "header.bakksyLogo" })}
           />
         </div>
+        <div className={styles.blockSwitchMenu}>
+          <div className={styles.languageSwitch}>
+            <img
+              src={ArrowDown}
+              alt={intl.formatMessage({ id: "header.arrowIcon" })}
+            />
+            <button className={styles.languageSwitchBtn}>EN</button>
+          </div>
 
-        <div className={styles.languageSwitch}>
-          <img
-            src={ArrowDown}
-            alt={intl.formatMessage({ id: "header.arrowIcon" })}
-          />
-          <button className={styles.languageSwitchBtn}>EN</button>
-        </div>
-
-        {/* <Button className={styles.leaveInvestmentButton} type="primary">
+          {/* <Button className={styles.leaveInvestmentButton} type="primary">
           Leave investment
         </Button> */}
-        <Menu />
+          <Menu />
+        </div>
       </div>
     </BlockLayout>
   );

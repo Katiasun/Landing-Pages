@@ -5,6 +5,11 @@
   background-size: cover;
 }
 
+.blockSwitchMenu {
+  display: flex;
+  align-items: center;
+}
+
 .languageSwitch {
   color: #fbfaf6;
   background-color: #202020;
