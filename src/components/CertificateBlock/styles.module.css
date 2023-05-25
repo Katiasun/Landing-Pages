@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   background: #1a1a1a;
-  background-image: url("../../images/upperStartsDekstop.png"),
+  background-image: url("../../images/upperStarts.png"),
     url("../../images/lowerStarts.png");
   background-repeat: repeat-x, repeat-x;
   background-position: top, bottom;
@@ -10,11 +10,10 @@
   padding-bottom: 80px;
 }
 
-
 .content-you-get h1 {
   margin-bottom: 16px;
   font-weight: 700;
-  font-size: 36px;
+  font-size: 30px;
   line-height: 120%;
   color: #fbfaf6;
 }
@@ -103,4 +102,3 @@
     transform: rotate(-4.03deg);
   }
 }
-

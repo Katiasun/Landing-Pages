@@ -1,9 +1,9 @@
 /* rename class */
-.block-16px { 
+.block-16px {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  padding: 0 16px;
+  padding: 15px 16px;
   max-width: 530px;
 }
 
