@@ -12,16 +12,23 @@ const Menu = () => {
 
   return (
     <nav className={`${styles.mobileMenu} ${isMobileMenuOpen ? "active" : ""}`}>
+      <ul className={styles.mobileMenuItems}>
+        <li>
+          <a href="#">{intl.formatMessage({ id: "menu.giveaway" })}</a>
+        </li>
+        <li>
+          <a href="#">{intl.formatMessage({ id: "menu.educationBot" })}</a>
+        </li>
+        <li>
+          <a href="#">{intl.formatMessage({ id: "menu.faq" })}</a>
+        </li>
+      </ul>
+
       <div className={styles.burgerButton} onClick={handleBurgerClick}>
         <div className={styles.line}></div>
         <div className={styles.line}></div>
         <div className={styles.line}></div>
       </div>
-      <ul className={styles.mobileMenuItems}>
-        <li>{intl.formatMessage({ id: "menu.giveaway" })}</li>
-        <li>{intl.formatMessage({ id: "menu.educationBot" })}</li>
-        <li>{intl.formatMessage({ id: "menu.faq" })}</li>
-      </ul>
     </nav>
   );
 };

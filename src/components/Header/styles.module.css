@@ -3,12 +3,21 @@
   background-image: url("../../images/bgGrid.png");
   background-repeat: no-repeat;
   background-size: cover;
+  overflow: hidden;
 }
 
-.blockSwitchMenu {
+.menuBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 20px 10px;
+}
+
+/* .blockSwitchMenu {
+  position: relative;
   display: flex;
   align-items: center;
-}
+} */
 
 .languageSwitch {
   color: #fbfaf6;
@@ -19,50 +28,29 @@
   padding: 4px;
   border: 1.5px solid #fbfaf6;
   border-radius: 4px;
-  font-weight: 600;
-  font-size: 12px;
-  line-height: 13px;
+  font-size: 14px;
+  line-height: 14px;
   text-align: center;
   background: #202020;
   cursor: pointer;
   text-transform: uppercase;
   color: #fbfaf6;
+  margin-left: 10px;
 }
 
-.languageSwitch img {
-  margin-right: 5px;
+button.leaveInvestmentButton {
+  display: none;
 }
-
 /* @MEDIA */
 @media screen and (min-width: 768px) {
-  .desktopMenu {
+  .header {
     display: flex;
-    align-items: center;
-    font-size: 20px;
   }
-
-  .desktopMenu li {
-    margin-right: 20px;
-  }
-
-  .desktopMenu li:last-child {
-    margin-right: 0;
-  }
-
-  .desktopMenu li {
-    transition: color 0.3s ease;
-  }
-
   .languageSwitch {
-    display: flex;
-    align-items: center;
-    padding: 5px 10px;
-    border-radius: 5px;
-    text-decoration: none;
-    transition: background-color 0.3s ease;
+    order: 1;
   }
-
-  .leaveInvestmentButton {
-    margin-left: 10px;
+  button.leaveInvestmentButton {
+    order: 2;
+    margin-left: 25px;
   }
 }

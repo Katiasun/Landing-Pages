@@ -12,35 +12,27 @@ const Header = () => {
 
   return (
     <BlockLayout className={styles.header}>
-      <div
-        style={{
-          display: "flex",
-          flexDirection: "row",
-          justifyContent: "space-around",
-          alignItems: "center",
-          padding: "20px 10px",
-        }}
-      >
+      <div className={styles.menuBar}>
         <div className={styles.logo}>
           <img
             src={Logo}
             alt={intl.formatMessage({ id: "header.bakksyLogo" })}
           />
         </div>
-        <div className={styles.blockSwitchMenu}>
-          <div className={styles.languageSwitch}>
-            <img
-              src={ArrowDown}
-              alt={intl.formatMessage({ id: "header.arrowIcon" })}
-            />
-            <button className={styles.languageSwitchBtn}>EN</button>
-          </div>
-
-          {/* <Button className={styles.leaveInvestmentButton} type="primary">
-          Leave investment
-        </Button> */}
-          <Menu />
+        {/* <div className={styles.blockSwitchMenu}></div> */}
+        <div className={styles.languageSwitch}>
+          <img
+            src={ArrowDown}
+            alt={intl.formatMessage({ id: "header.arrowIcon" })}
+          />
+          <button className={styles.languageSwitchBtn}>EN</button>
         </div>
+
+        <Menu />
+
+        <Button className={styles.leaveInvestmentButton} type="primary">
+          Leave investment
+        </Button>
       </div>
     </BlockLayout>
   );
